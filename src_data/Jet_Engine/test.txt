@@ -1,0 +1,181 @@
+in	conj	at
+given	for	aero engine
+transmitted	to	airframe
+multiplied	agent	mass flow
+air	of	mass flow
+given	by	mass flow
+passing	agent	air
+air	of	speed
+increase	in	speed
+approaches	agent	air
+approaches	at	flight speed
+flight speed	is_a	vflight
+approaches	conj	ejected
+ejected	manner	faster
+nozzle	adjmod	rear
+sound	of	speed
+increased	object	speed
+sound	of	speed
+fixed	at	speed
+sound	of	speed
+mach	is_a	speed
+vjet	of	speed
+ejected	at	speed
+is	if	given
+is	agent	mass flow
+is	object	w
+given	manner	then
+given	by	equation
+applies	object_clause	known
+known	object	this
+choked	cause	applies
+known	as	momentum thrust
+applies	agent	equation
+choked	manner	when
+choked	neg	not
+applies	conj	is
+is	agent	vjet
+is	manner	therefore
+is	manner	less
+less	than	mach
+mach	quantity	one
+pressure	at	nozzle
+there be	for	nozzle
+nozzle	adjmod	unchoked
+increase	agent	ways
+there be	agent	ways
+ways	quantity	two
+increase	object	thrust
+increase	at	flight speed
+flight speed	adjmod	given
+flight speed	conj	altitude
+passing	agent	mass flow W
+become	agent	mass flow W
+become	manner	larger
+become	disj	increased
+increased	object	vjet
+be	object_clause	have
+have	purpose	increase
+increase	object	mass flow
+have	object	area
+area	adjmod	larger
+area	adjmod	frontal
+be	agent	aero engine
+be	manner	bigger
+overcoming	object	drag
+produce	object	drag
+drag	adjmod	more
+be	conj	produce
+bigger	conj	heavier
+makes	on	hand
+hand	adjmod	other
+makes	agent	vjet
+vjet	adjmod	higher
+makes	object_clause	noisier
+makes	conj	increases
+needed	purpose	obtain
+obtain	object	thrust
+thrust	adjmod	given
+aero engine designer	of	task
+is	agent	task
+is	purpose	obtain
+obtain	object	compromise
+compromise	between	factors
+factors	quantity	two
+becomes	cause	fixed
+becomes	manner	choked
+fixed	object	vjet
+fixed	at	mach
+mach	quantity	one
+fixed	conj	added
+added	purpose	calculate
+calculate	object	f
+added	object	term
+term	adjmod	new
+term	is_a	pressure thrust
+is	agent	equation
+added	to	equation
+is	conj	is
+is	manner	where
+pressure	adjmod	static
+is	agent	pexit
+pressure	adjmod	static
+is	conj	pinlet
+is	at	engine inlet
+is	at	engine inlet
+pinlet	at	engine inlet
+fixed	agent	vjet
+fixed	with	climbing
+fixed	at	mach
+mach	quantity	one
+climbing	agent	aircraft
+aircraft	adjmod	new
+climbing	after	take-off
+change	object_clause	required
+required	object	air
+climbing	conj	change
+required	purpose	provide
+provide	object	propulsion
+propulsion	for	aero engine
+air	of	mass
+change	agent	mass
+change	neg	not
+gain	agent	aero engine
+gain	object	energy
+gain	through	addition
+addition	of	fuel term
+allows	agent	pressure thrust
+allows	purpose	increased
+allows	object_clause	increased
+increased	object	thrust
+increased	by	raising
+raising	object	pexit
+achieved	object	this
+jet	in	pressure
+achieved	through	pressure
+pressure	adjmod	higher
+pressure	adjmod	total
+fixed	object	vjet
+increased	by	running
+running	manner	hotter
+increased	conj	goes
+goes	agent	vjet
+goes	manner	up
+goes	conj	increases
+increases	agent	momentum thrust
+aero engine	of	task
+is	agent	task
+task	adjmod	first
+is	purpose	accelerate
+accelerate	down	runway
+task	for	engine
+consumed	by	engine
+front	of	engine
+ingesting	agent	engine
+swallows	agent	engine
+engine	adjmod	big
+air	has_sub_aspect_part	kg
+ejects	object	kg
+tonne	quantity	1,000
+kg	quantity	1,000
+swallows	conj	ejects
+ejects	agent	tonne
+kg	disj	tonne
+air	of	tonne
+kg	quantity	one
+tonne	quantity	one
+ejects	manner	second
+ejects	during	take-off
+ingesting	object_clause	has
+has	at	sea level
+air	of	metre
+has	agent	metre
+metre	quantity	one
+metre	adjmod	cubic
+has	imply	ingesting
+kilogram	of	mass
+has	object	mass
+kilogram	quantity	one
+ingesting	manner	so
+air	of	metres
+ingesting	object	metres

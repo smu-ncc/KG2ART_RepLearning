@@ -1,0 +1,486 @@
+1,000	0
+100	1
+200	2
+23	3
+23 time	4
+368	5
+437	6
+70	7
+70 time	8
+A340	9
+Air	10
+Aircraft	11
+Being	12
+Boyle	13
+Brayton cycle	14
+Charles	15
+F	16
+First	17
+Flight speed	18
+Gas temperature	19
+Hero	20
+However	21
+It	22
+Mach	23
+Most	24
+Newton	25
+Studies	26
+Then	27
+This	28
+Trent 500	29
+Universal Gas Law	30
+Vertical	31
+Vflight	32
+Vjet	33
+W	34
+When	35
+a number of	36
+a340	37
+able to	38
+accelerate	39
+achieved	40
+acting	41
+added	42
+addition	43
+admit	44
+aero engine	45
+aero engine designer	46
+air	47
+airborne	48
+aircraft	49
+airframe	50
+airliner	51
+allowed	52
+allows	53
+almost	54
+altitude	55
+always	56
+annular combustor	57
+applied	58
+applies	59
+approaches	60
+are	61
+area	62
+arrive	63
+at	64
+available	65
+average	66
+back	67
+be	68
+bearing	69
+bearing housing obj part	70
+become	71
+becomes	72
+being	73
+big	74
+bigger	75
+blades	76
+body	77
+boyle	78
+burn	79
+burnt	80
+calculate	81
+can combustor	82
+cannular combustor	83
+cause	84
+caused	85
+causing	86
+century ad	87
+certain	88
+change	89
+changed	90
+changes	91
+changing	92
+charles	93
+cheaper	94
+choked	95
+civil	96
+climb	97
+climbing	98
+combustion	99
+combustion gas	100
+combustor	101
+comparison	102
+complete	103
+components	104
+compressed	105
+compressible	106
+compression	107
+compressor	108
+compressor entry temperature	109
+compressors	110
+compromise	111
+confined	112
+connecting	113
+constant	114
+consumed	115
+continuous	116
+continuously	117
+convergent	118
+convert	119
+core	120
+costly	121
+cover	122
+create	123
+creating	124
+cruise	125
+cruise profile	126
+cubic	127
+cycle	128
+cylinder	129
+decrease	130
+decreased	131
+defines	132
+descends	133
+describes	134
+diameter	135
+difference	136
+different	137
+direct	138
+direction	139
+directly	140
+disc	141
+distinct	142
+divergent	143
+do	144
+double annular combustor	145
+down	146
+downwards	147
+drag	148
+drive	149
+drives	150
+driving	151
+duct	152
+each	153
+ejected	154
+ejects	155
+electrical	156
+ends	157
+energy	158
+energy release rate	159
+engine	160
+engine inlet	161
+engine thrust	162
+engines	163
+enters	164
+entry temperature	165
+equal	166
+equals	167
+equation	168
+equivalently	169
+essentially	170
+example	171
+exhaust	172
+exhaust jet	173
+exhaust nozzle	174
+exhausted	175
+expand	176
+expanded	177
+expansion	178
+expansion ratio	179
+expelled	180
+expensive	181
+explain	182
+extend	183
+extracted	184
+f	185
+factors	186
+fan obj complex	187
+fast	188
+faster	189
+finally	190
+first	191
+five	192
+five time	193
+fixed	194
+flight speed	195
+flow	196
+flowing	197
+flowpath	198
+flows	199
+fluid	200
+fly	201
+force	202
+forced	203
+forcing	204
+forward	205
+forwards	206
+four	207
+front	208
+frontal	209
+fuel	210
+fuel consumption	211
+fuel flow	212
+fuel injector	213
+fuel term	214
+fundamental	215
+gain	216
+gains	217
+garden sprinkler	218
+gas	219
+gas pipeline	220
+gas turbine	221
+gas turbine engine	222
+gaseous	223
+gases	224
+generator	225
+get	226
+give	227
+given	228
+gives	229
+giving	230
+goes	231
+going	232
+greater	233
+hand	234
+happens	235
+has	236
+have	237
+heat	238
+heat engine	239
+heated	240
+heavier	241
+height	242
+helicopter	243
+helps	244
+hero	245
+high	246
+higher	247
+hotter	248
+how	249
+however	250
+impart	251
+in	252
+increase	253
+increased	254
+increases	255
+ingesting	256
+input nozzle	257
+intake	258
+invented	259
+invention	260
+is	261
+issuing	262
+it	263
+its	264
+jet	265
+jet engine	266
+jet exit area	267
+jet pipe	268
+jet propulsion	269
+jet velocity	270
+jets	271
+kg	272
+kilogram	273
+known	274
+lands	275
+large	276
+larger	277
+law	278
+laws	279
+less	280
+lift	281
+lift off	282
+lift-induce	283
+lighter	284
+liquid	285
+load	286
+lower	287
+mach	288
+make	289
+makes	290
+mass	291
+mass flow	292
+mass flow W	293
+materials	294
+means	295
+metre	296
+metres	297
+mixed	298
+modern	299
+momentum	300
+momentum thrust	301
+more	302
+most	303
+motion	304
+move	305
+moves	306
+moving	307
+much	308
+multiplied	309
+need to	310
+needed	311
+needs	312
+new	313
+newton	314
+next	315
+noisier	316
+not	317
+now	318
+nozzle	319
+nozzle exit	320
+nozzles	321
+obtain	322
+of	323
+one	324
+open	325
+operates	326
+opposite	327
+option	328
+other	329
+out	330
+output	331
+overall	332
+overcoming	333
+oxygen	334
+pass	335
+passages	336
+passes	337
+passing	338
+pexit	339
+pinlet	340
+piston engine	341
+points	342
+power	343
+powerful	344
+powering	345
+practical	346
+pressure	347
+pressure drop	348
+pressure ratio	349
+pressure rise	350
+pressure thrust	351
+pressures	352
+principle	353
+produce	354
+produces	355
+propeller	356
+propelling	357
+proportional	358
+propulsion	359
+provide	360
+push	361
+raising	362
+ratio	363
+reaction	364
+rear	365
+rearwards	366
+reducing	367
+relationship	368
+released	369
+required	370
+revolve	371
+room	372
+rotating	373
+rotor	374
+rotor assembly	375
+rotor blade	376
+run	377
+running	378
+runway	379
+same	380
+sea level	381
+second	382
+shaft	383
+shape	384
+ship	385
+show	386
+showed	387
+shroud	388
+simple	389
+simplest	390
+size	391
+size piston engine	392
+sized	393
+slot	394
+slow	395
+slowly	396
+slows	397
+small	398
+so	399
+something	400
+sound	401
+space	402
+spare	403
+speed	404
+speeds	405
+square	406
+stages	407
+state	408
+states	409
+static	410
+stator	411
+stays	412
+steam	413
+stretching	414
+studies	415
+subsonic	416
+suggest	417
+swallows	418
+take-off	419
+takeoff	420
+task	421
+temperature	422
+temple door	423
+term	424
+that	425
+their	426
+then	427
+there be	428
+therefore	429
+thermodynamics	430
+they	431
+third	432
+this	433
+thrust	434
+thrust f	435
+time period	436
+together	437
+tonne	438
+tonnes	439
+total	440
+toy	441
+transmitted	442
+tube	443
+turbine	444
+turbine blade	445
+turbines	446
+turbofan engine	447
+turbojet	448
+turboprop engine	449
+turned	450
+twenty	451
+twenty time	452
+twenty-five	453
+twice	454
+two	455
+typical	456
+unchoked	457
+up	458
+used	459
+useful	460
+usually	461
+vane	462
+varies	463
+varying	464
+velocity	465
+vertical	466
+very	467
+vflight	468
+vjet	469
+volume	470
+volume sequence	471
+w	472
+water	473
+water jet	474
+ways	475
+weighs	476
+were	477
+when	478
+where	479
+which	480
+wind	481
+wing	482
+wings	483
+withstand	484
+work	485

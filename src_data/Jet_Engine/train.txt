@@ -1,0 +1,1440 @@
+expansion ratio	adjmod	lower
+size piston engine	adjmod	same
+sized	advmod	equivalently
+time period	adjmod	same
+70 time	advmod	more
+size	adjmod	same
+give	agent	comparison
+energy release rate	from	comparison
+air	adjmod	more
+fuel	adjmod	more
+is	manner	lower
+be	manner	cheaper
+become	manner	larger
+area	adjmod	larger
+be	manner	bigger
+drag	adjmod	more
+bigger	conj	heavier
+engine	adjmod	noisier
+makes	object_clause	noisier
+becomes	manner	lighter
+engine	possessed_by	Hero
+invention	possessed_by	Hero
+law	possessed_by	Boyle
+law	possessed_by	Charles
+Boyle	conj	Charles
+law	possessed_by	Newton
+equal	conj	opposite
+reaction	adjmod	opposite
+direction	adjmod	opposite
+century ad	adjmod	first
+equal	conj	opposite
+reaction	adjmod	opposite
+expelled	manner	finally
+nozzle	adjmod	rear
+goes	manner	then
+arrive	at	back
+admit	over	time period
+used	object	third
+in	conj	at
+nozzle	adjmod	rear
+given	manner	then
+task	adjmod	first
+ejects	manner	second
+has	at	sea level
+metres	rate	second
+stretching	in	front
+consumed	in	second
+law	adjmod	third
+jet engine	adjmod	Most
+constant	advmod	almost
+varies	agent	ratio
+increase	in	relationship
+propeller	possessed_by	ship
+has	agent	A340
+it	refer_link	A340
+law	of	motion
+It	refer_link	cycle
+known	object	cycle
+known	as	Brayton cycle
+defines	object	volume sequence
+stages	consist of	compression
+combustion	conj	expansion
+stages	consist of	expansion
+expansion	conj	exhaust
+stages	consist of	exhaust
+increase	conj	decrease
+that	verb_clause	decrease
+shape	of	exhaust
+relationship	to	decrease
+admit	agent	cycle
+used	for	combustion
+used	for	combustion
+points	in	cycle
+gain	through	addition
+slows	object_clause	decreased
+arrive	manner	so
+flowing	manner	when
+describes	object_clause	cause
+allowed	cause	cause
+allowed	manner	when
+exhausted	manner	when
+choked	manner	when
+ingesting	manner	so
+acting	on	body
+admit	agent	flowpath
+cycle	conj	flowpath
+accelerate	directional	runway
+impart	manner	how
+cause	manner	how
+forcing	object	fluid
+fluid	disj_member	liquid
+push	against	air
+forced	object	jets
+reaction	to	jets
+jets	of	water
+momentum	of	steam
+issuing	agent	steam
+burn	object	fuel
+is	object	jet
+propelling	agent	jet
+jet	of	air
+propeller	disj	water jet
+load	disj_member	water jet
+passing	agent	air
+tube	with	air
+enters	agent	air
+compressed	object	air
+mixed	with	fuel
+expelled	object	combustion gas
+passing	agent	gases
+pressure	of	gases
+expanded	object	combustion gas
+arrive	agent	combustion gas
+accelerate	object	exhaust jet
+air	conj	combustion gas
+velocity	of	combustion gas
+they	refer_link	gases
+velocity	of	air
+flowing	agent	gas
+flowing	agent	fluid
+gas	disj	fluid
+flows	agent	gas
+flows	agent	fluid
+gas	disj	fluid
+temperature	of	gas
+allowed	object	gas
+admit	object	air
+burnt	object	fuel
+used	object	air
+combustion	with	fuel
+third	of	oxygen
+passing	agent	oxygen
+oxygen	in	air
+move	object	air
+burn	object	fuel
+needed	object	materials
+used	agent	materials
+be	agent	materials
+passing	agent	air
+mass flow	of	air
+speed	of	air
+speed	of	sound
+mass	of	air
+speed	of	sound
+speed	of	sound
+kg	of	air
+tonne	of	air
+metre	of	air
+metres	of	air
+volume	of	air
+passes	agent	air
+push	through	air
+consumed	object	fuel
+forcing	in	direction
+moves	in	direction
+propelling	manner	forward
+goes	manner	up
+goes	manner	down
+accelerate	manner	rearwards
+goes	manner	up
+turned	manner	downwards
+slows	manner	down
+exhausted	cause	becomes
+consumed	conj	becomes
+push	object_clause	operates
+state	object_clause	increase
+that	verb_clause	increase
+flowing	cause	increase
+slow	conj	increase
+changed	if	increase
+states	object_clause	increase
+that	verb_clause	increase
+cause	agent	increase
+cause	object	increase
+do	object	work
+be	imply	used
+multiplied	by	increase
+become	disj	increased
+have	purpose	increase
+makes	conj	increases
+allows	object_clause	increased
+allows	purpose	increased
+increased	by	running
+goes	conj	increases
+produces	object_clause	weighs
+flowing	through	space
+flows	through	duct
+flowpath	adjmod	large
+engines	adjmod	large
+engines	adjmod	small
+Being	manner	able to
+move	manner	able to
+is	object	option
+is	object	much
+lower	advmod	much
+70 time	adjmod	much
+70 time	adjmod	much
+lower	advmod	much
+applied	manner	need to
+convert	into	something
+is	agent	something
+be	object	five time
+powerful	advmod	twenty time
+air	quantity	70 time
+fuel	quantity	70 time
+energy	quantity	70 time
+higher	advmod	23 time
+passing	manner	continuously
+changing	manner	always
+high	advmod	continuously
+is	agent	pressure rise
+much	advmod	twice
+much	compared_to	pressure drop
+becomes	agent	difference
+jet velocity	adjmod	higher
+is	agent	energy release rate
+is	manner	higher
+ratio	of	energy release rate
+give	object	energy release rate
+be	manner	higher
+Vjet	adjmod	higher
+pressure	adjmod	higher
+running	manner	hotter
+needs	object_clause	be
+suggest	object_clause	be
+that	verb_clause	be
+means	object_clause	be
+that	verb_clause	be
+direction	quantity	one
+push	neg	not
+stages	quantity	four
+speeds	adjmod	subsonic
+changed	neg	not
+air	neg	not
+third	quantity	one
+temperature	adjmod	high
+temperature	adjmod	average
+speed	of	Vjet
+choked	neg	not
+is	agent	Vjet
+Mach	quantity	one
+ways	quantity	two
+increased	object	Vjet
+makes	agent	Vjet
+factors	quantity	two
+fixed	object	Vjet
+Mach	quantity	one
+fixed	agent	Vjet
+Mach	quantity	one
+change	neg	not
+fixed	object	Vjet
+goes	agent	Vjet
+tonne	quantity	one
+kg	quantity	one
+metre	quantity	one
+kilogram	quantity	one
+second	quantity	one
+Trent 500	quantity	four
+is	neg	not
+tonne	quantity	one
+provide	neg	not
+applies	object	principle
+added	to	equation
+states	agent	law
+describes	agent	law
+applied	as	Universal Gas Law
+given	by	equation
+applies	agent	equation
+added	to	equation
+is	agent	equation
+states	agent	law
+is	object	tube
+enters	through	intake
+expelled	from	nozzle
+drives	via	shaft
+pass	through	components
+passages	through	stator
+stator	conj	rotor blade
+passages	through	rotor blade
+exhausted	from	nozzle
+be	agent	core
+ejected	from	nozzle
+choked	object	nozzle
+there be	for	nozzle
+becomes	agent	nozzle
+jet exit area	of	exhaust nozzle
+pressure	at	nozzle exit
+is	at	engine inlet
+is	at	engine inlet
+pinlet	at	engine inlet
+pressure	in	jet pipe
+diameter	of	intake
+there be	for	force
+acting	agent	force
+reaction	adjmod	equal
+reaction	adjmod	equal
+garden sprinkler	adjmod	rotating
+added	object	heat
+showed	object_clause	impart
+reaction	adjmod	equal
+causing	purpose	revolve
+causing	object_clause	revolve
+are	conj	burn
+burn	purpose	convert
+jet	adjmod	moving
+compressed	conj	mixed
+mixed	conj	heated
+heated	conj	expanded
+expanded	conj	expelled
+expelled	purpose	provide
+enters	conj	compressed
+shaft	adjmod	connecting
+cycle	of	combustion
+compression	conj	combustion
+stages	consist of	combustion
+goes	conj	stays
+stays	conj	goes
+goes	co-occurrence	expanded
+is	imply	arrive
+arrive	purpose	accelerate
+caused	object	changes
+caused	by	changes
+caused	co-occurrence	pass
+laws	of	flow
+flows	if	slow
+helps	purpose	explain
+gas	adjmod	confined
+relationship	adjmod	direct
+allowed	purpose	expand
+are	agent	power
+required	agent	power
+needs	purpose	drive
+needs	purpose	do
+becomes	purpose	produce
+suggest	object_clause	burnt
+that	verb_clause	burnt
+burnt	cause	released
+move	conj	burn
+needed	purpose	withstand
+approaches	conj	ejected
+be	object_clause	have
+produce	object	drag
+be	conj	produce
+needed	purpose	obtain
+is	purpose	obtain
+climbing	conj	change
+required	purpose	provide
+increased	by	raising
+increased	conj	goes
+is	purpose	accelerate
+swallows	conj	ejects
+were	if	extend
+is	purpose	make
+make	object_clause	lift off
+is	conj	passes
+going	cause	passes
+passes	conj	turned
+turned	purpose	create
+create	object	lift
+tonne	of	lift
+has	imply	get
+provide	object	lift
+lift	adjmod	direct
+required	purpose	push
+overcoming	object	drag
+overcoming	object	drag
+drag	conj	drag
+equals	object	drag
+cruise	with	lift
+decreased	by	reducing
+is	manner	overall
+is	object	example
+of	conj	of
+needs	manner	therefore
+burn	manner	therefore
+is	manner	therefore
+is	manner	therefore
+space	adjmod	convergent
+duct	adjmod	divergent
+explain	object	shape
+stretching	agent	cylinder
+were	object	cylinder
+states	clause	that
+moves	agent	that
+push	agent	it
+air	behind	it
+energy	possessed_by	their
+passing	through	it
+stays	agent	it
+drives	agent	that
+drives	object	it
+pass	agent	they
+state	clause	that
+its	refer_link	its
+its	refer_link	its
+its	refer_link	its
+speed	possessed_by	its
+pressure	possessed_by	its
+speed	possessed_by	its
+pressure	possessed_by	its
+states	clause	that
+show	clause	that
+work	possessed_by	its
+suggest	clause	that
+suggest	clause	that
+means	clause	that
+be	agent	it
+gain	agent	it
+extend	agent	it
+engines	possessed_by	its
+get	agent	it
+climb	agent	it
+applies	by	forcing
+forcing	imply	creating
+is	agent	garden sprinkler
+rotating	agent	garden sprinkler
+forced	through	nozzles
+invented	object	It
+invented	around	century ad
+open	object	temple door
+propelling	disj	powering
+generator	adjmod	electrical
+defines	agent	It
+volume sequence	with	stages
+goes	manner	First
+state	agent	laws
+flow	adjmod	compressible
+flowing	at	speeds
+pressure	adjmod	static
+pressure	adjmod	static
+helps	agent	This
+cause	co-occurrence	happens
+changing	imply	applied
+applied	object	laws
+show	agent	laws
+laws	of	thermodynamics
+that	verb_clause	are
+required	disj	extracted
+that	of	compressor entry temperature
+suggest	agent	Studies
+powerful	compared_to	size piston engine
+is	agent	This
+admit	agent	This
+suggest	agent	This
+used	manner	However
+used	if	is
+give	object_clause	varies
+Being	cause	means
+is	manner	However
+be	agent	Gas temperature
+approaches	agent	Air
+ejected	manner	faster
+given	object	thrust f
+applies	object_clause	known
+known	object	This
+choked	cause	applies
+applies	conj	is
+is	manner	less
+less	than	Mach
+nozzle	adjmod	unchoked
+increase	agent	ways
+there be	agent	ways
+become	agent	mass flow W
+passing	agent	mass flow W
+have	object	area
+area	adjmod	frontal
+makes	on	hand
+hand	adjmod	other
+task	of	aero engine designer
+compromise	among	factors
+becomes	manner	When
+fixed	at	Mach
+added	object	term
+term	adjmod	new
+fixed	conj	added
+is	conj	is
+is	manner	where
+pressure	adjmod	static
+pressure	adjmod	static
+fixed	if	climbing
+fixed	at	Mach
+climbing	agent	Aircraft
+Aircraft	adjmod	new
+change	object_clause	required
+required	object	Air
+provide	object	propulsion
+addition	of	fuel term
+achieved	object	This
+pressure	adjmod	total
+ejects	object	kg
+tonne	quantity	1,000
+kg	quantity	1,000
+ejects	agent	tonne
+kg	disj	tonne
+ingesting	object_clause	has
+has	agent	metre
+metre	adjmod	cubic
+has	imply	ingesting
+mass	of	kilogram
+ingesting	object	metres
+metres	quantity	1,000
+metres	adjmod	cubic
+stretching	manner	out
+extend	for	metres
+metres	quantity	200
+extend	conj	consumed
+task	adjmod	next
+weighs	object	tonnes
+tonnes	quantity	368
+produces	agent	each
+produces	object	tonnes
+tonnes	quantity	twenty-five
+giving	object	output
+output	adjmod	total
+output	of	tonnes
+tonnes	quantity	100
+take-off	adjmod	Vertical
+going	manner	forwards
+has	object_clause	gives
+gives	at	takeoff
+more	than	tonne
+gives	object	tonne
+tonne	every	metre
+metre	adjmod	square
+has	object	metres
+metres	quantity	437
+metres	adjmod	square
+get	manner	airborne
+get	conj	climb
+provide	conj	required
+drag	adjmod	lift-induce
+lift-induce	manner	lift-induce
+increases	agent	Flight speed
+equals	agent	engine thrust
+cruise	manner	now
+gains	agent	It
+gains	co-occurrence	consumed
+decreased	manner	Then
+decreased	object	engine thrust
+slows	conj	descends
+descends	conj	lands
+is	agent	This
+is	object	cruise profile
+cruise profile	adjmod	typical
+cruise profile	for	airliner
+airliner	adjmod	civil
+flight speed	is_a	Vflight
+is	object	W
+calculate	object	F
+is	agent	pexit
+is	conj	pinlet
+raising	object	pexit
+liquid	disj	gaseous
+fluid	disj_member	gaseous
+example	adjmod	simple
+example	adjmod	practical
+invented	purpose	open
+jet engine	adjmod	modern
+something	adjmod	useful
+something	adjmod	useful
+moving	manner	fast
+gas turbine	adjmod	simplest
+is	manner	essentially
+tube	adjmod	open
+open	at	ends
+combustion	adjmod	continuous
+volume sequence	adjmod	varying
+stages	adjmod	distinct
+stays	manner	constant
+is	manner	usually
+pressure	adjmod	spare
+laws	adjmod	fundamental
+pressure	adjmod	constant
+applied	manner	together
+laws	adjmod	fundamental
+pressure ratio	adjmod	given
+expansion ratio	adjmod	given
+are	manner	proportional
+proportional	advmod	directly
+becomes	manner	available
+gas turbine	adjmod	simple
+pressure	adjmod	spare
+be	manner	powerful
+cycle	adjmod	continuous
+flowpath	adjmod	open
+combustion	adjmod	complete
+energy release rate	adjmod	different
+be	manner	powerful
+powerful	advmod	very
+size	adjmod	given
+is	manner	costly
+materials	adjmod	expensive
+points	adjmod	certain
+is	if	given
+flight speed	adjmod	given
+thrust	adjmod	given
+becomes	cause	fixed
+becomes	manner	choked
+engine	adjmod	big
+lift	adjmod	constant
+gains	manner	slowly
+is	agent	task
+climbing	after	take-off
+is	agent	task
+ejects	unmapped	take-off
+is	agent	task
+produces	at	take-off
+turned	object	take-off
+is	agent	take-off
+reaction	is_a	thrust
+operates	agent	thrust
+it	refer_link	thrust
+it	refer_link	thrust
+provide	object	thrust
+changing	agent	pressure
+goes	agent	pressure
+it	refer_link	pressure
+goes	agent	pressure
+arrive	with	pressure
+accelerate	agent	pressure
+changes	in	pressure
+changes	in	velocity
+increase	agent	speed
+decrease	agent	pressure
+slow	agent	speed
+increase	agent	pressure
+changed	object	temperature
+increase	agent	pressure
+decrease	in	volume
+gas	under	pressure
+increase	in	temperature
+increase	in	volume
+changing	agent	pressure
+pressure	conj	temperature
+changing	agent	temperature
+temperature	conj	volume
+changing	agent	volume
+required	for	pressure ratio
+extracted	for	expansion ratio
+proportional	to	entry temperature
+be	agent	entry temperature
+needs	object	expansion ratio
+produce	object	thrust
+pressure	conj	jet velocity
+piston engine	adjmod	sized
+piston engine	of	size
+varies	with	size
+be	for	size
+withstand	object	temperature
+is	agent	temperature
+be	agent	temperature
+Gas temperature	conj	pressures
+be	agent	pressures
+given	object	thrust
+transmitted	agent	thrust
+increase	in	speed
+approaches	at	flight speed
+ejected	at	speed
+Mach	is_a	speed
+increase	object	thrust
+increase	at	flight speed
+flight speed	conj	altitude
+needed	agent	fuel consumption
+increases	object	fuel consumption
+obtain	object	thrust
+is	object	jet exit area
+is	object	pressure
+is	object	pressure
+is	object	pressure
+pinlet	object	pressure
+change	agent	mass
+increased	object	thrust
+achieved	through	pressure
+fixed	at	speed
+increased	object	speed
+has	object	mass
+were	agent	volume
+it	refer_link	volume
+cylinder	is_a	diameter
+tonnes	of	thrust
+tonnes	of	thrust
+gains	object	height
+example	of	jet propulsion
+issuing	from	jets
+a number of	quantity	jets
+impart	to	jets
+given	by	mass flow
+multiplied	agent	mass flow
+is	agent	mass flow
+increase	object	mass flow
+reducing	object	fuel flow
+there be	agent	reaction
+that	refer_clause	reaction
+moves	agent	reaction
+creating	object	reaction
+rotating	in	reaction
+impart	agent	momentum
+impart	object	reaction
+known	as	momentum thrust
+term	is_a	pressure thrust
+allows	agent	pressure thrust
+increases	agent	momentum thrust
+that	verb_clause	there be
+obtain	object	compromise
+convert	object	energy
+released	agent	energy
+gain	object	energy
+showed	agent	invention
+applies	agent	jet engine
+moves	object	engine
+thrust	of	jet engine
+operates	on	engine
+added	agent	engine
+It	refer_link	engine
+invented	as	toy
+revolve	agent	engine
+are	agent	jet engine
+which	refer_clause	gas turbine
+are	agent	gas turbine
+are	object	gas turbine
+are	object	heat engine
+burn	like	heat engine
+their	refer_link	engines
+is	for	gas turbine
+propelling	object	aircraft
+powering	object	turbine
+driving	agent	turbine
+driving	object	load
+load	disj_member	generator
+load	disj_member	compressor
+generator	disj	compressor
+compressor	for	gas pipeline
+generator	for	gas pipeline
+propeller	for	gas pipeline
+water jet	for	gas pipeline
+load	disj_member	propeller
+compressor	disj	propeller
+is	agent	gas turbine
+gas turbine	is_a	turbojet
+heated	in	combustor
+expanded	through	turbine
+drives	agent	turbine
+drives	object	compressor
+it	refer_link	compressor
+passing	through	engine
+goes	in	compressor
+stays	in	combustor
+expanded	through	turbine
+pressure rise	in	compressor
+that	refer_clause	turbine
+pressure drop	through	turbine
+drives	agent	turbine
+back	of	engine
+components	of	gas turbine engine
+rotor blade	of	compressor
+stator	of	compressor
+stator	of	turbine
+compressor	conj	turbine
+happens	in	combustor
+combustor	of	gas turbine
+changing	in	compressors
+compressors	conj	turbines
+drive	object	compressor
+its	refer_link	turbine
+greater	for	gas turbine
+run	object	engine
+core	of	gas turbine
+flowpath	of	gas turbine
+cycle	of	gas turbine
+air	as	piston engine
+released	in	gas turbine
+passing	through	gas turbine
+higher	than	piston engine
+comparison	of	engines
+comparison	of	engines
+move	through	engine
+be	agent	gas turbine
+needed	agent	gas turbine
+is	agent	gas turbine
+combustor	conj	turbine
+be	in	piston engine
+temperature	in	piston engine
+given	for	aero engine
+it	refer_link	aero engine
+it	refer_link	aero engine
+transmitted	to	airframe
+passing	through	engine
+approaches	object	engine
+passing	through	engine
+have	agent	engine
+propulsion	for	aero engine
+change	through	engine
+running	object	engine
+task	of	aero engine
+It	refer_link	aircraft
+accelerate	object	aircraft
+swallows	agent	engine
+engine	like	Trent 500
+ingesting	agent	engine
+front	of	engine
+consumed	by	engine
+task	for	engine
+lift off	agent	aircraft
+its	refer_link	aircraft
+weighs	agent	aircraft
+each	of	engines
+going	agent	aircraft
+passes	over	wings
+gives	agent	wing
+metres	of	wing
+required	object	engines
+provide	agent	engines
+push	object	aircraft
+drag	of	airframe
+drag	of	airframe
+drag	from	wings
+drag	from	wings
+cruise	agent	aircraft
+lift	from	wings
+becomes	agent	aircraft
+lands	agent	aircraft
+slows	agent	aircraft
+descends	agent	aircraft
+motion	of	law
+states	agent	law
+newton	has_attribute	law
+law	adjmod	third
+states	clause	that
+that	verb_clause	there be
+acting	agent	force
+there be	for	force
+acting	on	body
+there be	agent	reaction
+reaction	adjmod	equal
+reaction	adjmod	opposite
+equal	conj	opposite
+slot	part_of	jet engine
+fan obj complex	part_of	jet engine
+cover	part_of	jet engine
+wind	location	jet engine
+applies	agent	jet engine
+applies	object	principle
+applies	by	forcing
+forcing	object	fluid
+fluid	disj_member	liquid
+forcing	in	direction
+direction	quantity	one
+forcing	imply	creating
+moves	agent	reaction
+creating	object	reaction
+reaction	adjmod	equal
+air	behind	thrust
+push	agent	thrust
+jet engine	of	thrust
+operates	agent	thrust
+reaction	is_a	thrust
+operates	on	engine
+moves	object	engine
+moves	in	direction
+direction	adjmod	opposite
+fluid	disj_member	gaseous
+liquid	disj	gaseous
+push	object_clause	operates
+slot	part_of	jet engine
+fan obj complex	part_of	jet engine
+cover	part_of	jet engine
+wind	location	jet engine
+push	neg	not
+push	against	air
+rotating	agent	garden sprinkler
+is	agent	garden sprinkler
+garden sprinkler	adjmod	rotating
+jet propulsion	of	example
+is	object	example
+example	adjmod	simple
+example	adjmod	practical
+reaction	in	rotating
+forced	object	jets
+water	of	jets
+reaction	to	jets
+forced	through	nozzles
+invented	object	engine
+revolve	agent	engine
+added	agent	engine
+engine	possessed_by	hero
+added	object	heat
+added	to	equation
+invented	around	century ad
+century ad	adjmod	first
+invented	as	toy
+invented	purpose	open
+open	object	temple door
+showed	agent	invention
+hero	has_attribute	invention
+showed	object_clause	impart
+impart	manner	how
+steam	of	momentum
+impart	agent	momentum
+issuing	agent	steam
+a number of	quantity	jets
+impart	object	reaction
+reaction	adjmod	equal
+impart	to	jets
+causing	purpose	revolve
+causing	object_clause	revolve
+reaction	adjmod	opposite
+equal	conj	opposite
+slot	part_of	jet engine
+fan obj complex	part_of	jet engine
+cover	part_of	jet engine
+wind	location	jet engine
+are	agent	jet engine
+jet engine	adjmod	most
+jet engine	adjmod	modern
+slot	part_of	gas turbine
+fan obj complex	part_of	gas turbine
+cover	part_of	gas turbine
+wind	location	gas turbine
+are	agent	gas turbine
+which	refer_clause	gas turbine
+are	object	gas turbine
+burn	like	heat engine
+are	object	heat engine
+are	conj	burn
+engine	requires	fuel
+generator	requires	fuel
+turbofan engine	requires	fuel
+turbojet	requires	fuel
+turboprop engine	requires	fuel
+heat engine	requires	fuel
+gas turbine	requires	fuel
+burn	object	fuel
+burn	purpose	convert
+engines	refer_link	engines
+run	object	engines
+back	of	engines
+passing	through	engines
+engines	has_attribute	energy
+convert	object	energy
+convert	into	something
+something	adjmod	useful
+slot	part_of	gas turbine
+fan obj complex	part_of	gas turbine
+cover	part_of	gas turbine
+wind	location	gas turbine
+components	of	gas turbine
+is	for	gas turbine
+is	agent	something
+something	adjmod	useful
+jet	adjmod	moving
+moving	manner	fast
+fly	agent	jet
+exhausted	of	jet
+is	object	jet
+pressure	conj	jet
+propelling	agent	jet
+air	of	jet
+is	object	jet
+gains	agent	aircraft
+lift off	agent	aircraft
+accelerate	object	aircraft
+propelling	object	aircraft
+propelling	manner	forward
+required	agent	powering
+are	agent	powering
+propelling	disj	powering
+turbine blade	part_of	turbine
+bearing	part_of	turbine
+vane	part_of	turbine
+driving	agent	turbine
+powering	object	turbine
+driving	object	load
+load	disj_member	generator
+generator	adjmod	electrical
+bearing	part_of	compressor
+drives	object	compressor
+rotor	part_of	compressor
+blades	of	compressor
+stator	of	compressor
+goes	in	compressor
+drives	object	compressor
+generator	disj	compressor
+load	disj_member	compressor
+water jet	for	gas pipeline
+propeller	for	gas pipeline
+generator	for	gas pipeline
+compressor	for	gas pipeline
+compressor	disj	propeller
+load	disj_member	propeller
+ship	has_attribute	propeller
+propeller	disj	water jet
+load	disj_member	water jet
+fan obj complex	part_of	gas turbine
+cover	part_of	gas turbine
+wind	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+air	location	gas turbine
+is	agent	gas turbine
+gas turbine	adjmod	simplest
+turbine	part_of	turbojet
+room	part_of	turbojet
+bearing	part_of	turbojet
+rotor	part_of	turbojet
+fan obj complex	part_of	turbojet
+compressor	part_of	turbojet
+gas turbine	is_a	turbojet
+is	manner	essentially
+is	object	tube
+tube	adjmod	open
+open	at	ends
+compressed	object	air
+enters	agent	air
+passing	agent	air
+tube	with	air
+passing	manner	continuously
+passing	through	it
+enters	through	intake
+compressed	conj	mixed
+engine	requires	fuel
+gas turbine	requires	fuel
+generator	requires	fuel
+turbofan engine	requires	fuel
+turbojet	requires	fuel
+turboprop engine	requires	fuel
+heat engine	requires	fuel
+mixed	with	fuel
+fuel injector	part_of	combustor
+stays	in	combustor
+mixed	conj	heated
+combustor	in	heated
+heated	conj	expanded
+drives	agent	turbine
+turbine blade	part_of	turbine
+bearing	part_of	turbine
+vane	part_of	turbine
+pressure	through	turbine
+expanded	through	turbine
+drives	agent	turbine
+expanded	through	turbine
+expanded	conj	expelled
+expelled	manner	finally
+expanded	object	combustion gas
+expelled	object	combustion gas
+choked	object	nozzle
+ejected	from	nozzle
+exhausted	from	nozzle
+expelled	from	nozzle
+nozzle	adjmod	rear
+expelled	purpose	provide
+provide	object	thrust
+enters	conj	compressed
+drives	via	shaft
+shaft	adjmod	connecting
+defines	agent	cycle
+admit	agent	cycle
+combustion	of	cycle
+known	object	cycle
+combustion	adjmod	continuous
+known	as	Brayton cycle
+defines	object	volume sequence
+volume sequence	adjmod	varying
+volume sequence	with	stages
+stages	quantity	four
+stages	adjmod	distinct
+stages	consist of	compression
+arrive	agent	combustion
+compression	conj	combustion
+stages	consist of	combustion
+combustion	conj	expansion
+stages	consist of	expansion
+expansion	conj	exhaust
+stages	consist of	exhaust
+caused	object	changing
+gases	of	pressure
+changing	agent	pressure
+passing	agent	gases
+changing	manner	always
+goes	manner	first
+stays	agent	pressure
+much	as	pressure
+compressor	in	pressure
+is	agent	pressure
+goes	agent	pressure
+goes	agent	pressure
+goes	manner	up
+goes	conj	stays
+stays	manner	constant
+constant	advmod	almost
+stays	conj	goes
+goes	manner	then
+goes	manner	down
+goes	co-occurrence	expanded
+is	manner	usually
+is	object	much
+much	advmod	twice
+is	imply	arrive
+arrive	manner	so
+arrive	at	back
+accelerate	agent	pressure
+arrive	with	pressure
+pressure	adjmod	spare
+arrive	purpose	accelerate
+accelerate	object	exhaust jet
+accelerate	manner	rearwards
+changing	in	pressure
+caused	by	changes
+gases	of	velocity
+changes	in	velocity
+pass	agent	gases
+caused	co-occurrence	pass
+pass	through	components
+air	conj	combustion
+flow	of	laws
+state	agent	laws
+laws	adjmod	fundamental
+flow	adjmod	compressible
+state	clause	that
+state	object_clause	increase
+flowing	cause	increase
+that	verb_clause	increase
+flowing	manner	when
+flows	agent	gas
+flowing	agent	gas
+flowing	at	speeds
+speeds	adjmod	subsonic
+flowing	through	space
+space	adjmod	convergent
+its	refer_link	its
+increase	agent	speed
+its	has_attribute	speed
+its	has_attribute	pressure
+decrease	agent	pressure
+pressure	adjmod	static
+that	verb_clause	decrease
+increase	conj	decrease
+flowing	agent	fluid
+gas	disj	fluid
+flows	if	slow
+flows	through	duct
+duct	adjmod	divergent
+its	refer_link	its
+its	has_attribute	speed
+slow	agent	speed
+its	has_attribute	pressure
+increase	agent	pressure
+increase	agent	pressure
+pressure	adjmod	static
+slow	conj	increase
+flows	agent	fluid
+gas	disj	fluid
+helps	agent	this
+helps	purpose	explain
+exhaust jet	of	shape
+explain	object	shape
+passages	through	stator
+of	conj	of
+shroud	connected_to	blades
+passages	through	blades
+stator	conj	blades
+turbine blade	part_of	turbine
+bearing	part_of	turbine
+vane	part_of	turbine
+stator	of	turbine
+compressor	conj	turbine
+states	agent	law
+states	clause	that
+states	object_clause	increase
+changed	if	increase
+that	verb_clause	increase
+gas	of	temperature
+changed	object	temperature
+gas	adjmod	confined
+changed	neg	not
+increase	in	relationship
+relationship	adjmod	direct
+relationship	to	decrease
+decrease	in	volume
+describes	agent	law
+charles	has_attribute	law
+describes	object_clause	cause
+allowed	cause	cause
+cause	manner	how
+allowed	manner	when
+allowed	object	gas
+gas	under	pressure
+pressure	adjmod	constant
+allowed	purpose	expand
+cause	agent	increase
+increase	in	temperature
+multiplied	by	increase
+cause	object	increase
+increase	in	volume
+combustor	in	happens
+cause	co-occurrence	happens
+slot	part_of	gas turbine
+fan obj complex	part_of	gas turbine
+cover	part_of	gas turbine
+wind	location	gas turbine
+combustor	of	gas turbine
+need to	object_clause	changing
+changing	agent	pressure
+applied	manner	need to
+changing	imply	applied
+applied	object	laws
+applied	manner	together
+applied	as	Universal Gas Law
+rotor	part_of	compressors
+bearing	part_of	compressors
+drive	object	compressors
+work	possessed_by	turbines
+turbine blade	part_of	turbines
+bearing	part_of	turbines
+vane	part_of	turbines
+be	agent	turbines
+compressors	conj	turbines
+changing	agent	temperature
+pressure	conj	temperature
+extend	agent	volume
+were	agent	volume
+air	of	volume
+temperature	conj	volume
+changing	agent	volume
+boyle	conj	charles
+thermodynamics	of	laws
+show	agent	laws
+laws	adjmod	fundamental
+show	clause	that
+that	verb_clause	are
+required	for	pressure ratio
+pressure ratio	adjmod	given
+extracted	for	expansion ratio
+expansion ratio	adjmod	given
+required	disj	extracted
+are	manner	proportional
+proportional	advmod	directly
+proportional	to	entry temperature
+needs	object_clause	be
+be	object	five
+needs	manner	therefore
+expansion ratio	adjmod	lower
+lower	advmod	much
+needs	object	expansion ratio
+needs	purpose	drive
+needs	purpose	do
+do	object	work
+exhausted	cause	becomes
+becomes	agent	difference
+becomes	manner	available
+becomes	purpose	produce
+given	object	thrust
+transmitted	agent	thrust
+given	object	thrust
+produce	object	thrust
+exhausted	manner	when
+slot	part_of	gas turbine
+fan obj complex	part_of	gas turbine
+cover	part_of	gas turbine
+wind	location	gas turbine
+greater	for	gas turbine
+gas turbine	adjmod	simple
+is	object	pressure
+is	object	pressure
+pinlet	object	pressure
+pressure	adjmod	spare
+jet	adjmod	higher
+suggest	agent	studies
+suggest	clause	that
+suggest	object_clause	be
+that	verb_clause	be
+be	agent	core
+slot	part_of	gas turbine
+fan obj complex	part_of	gas turbine
+cover	part_of	gas turbine
+wind	location	gas turbine
+core	of	gas turbine
+be	manner	powerful
+powerful	advmod	twenty
+powerful	as	size piston engine
+size piston engine	adjmod	same
+admit	agent	this
+is	agent	this
+cycle	adjmod	continuous
+admit	agent	flowpath
+cycle	conj	flowpath
+flowpath	adjmod	large
+flowpath	adjmod	open
+slot	part_of	gas turbine
+fan obj complex	part_of	gas turbine
+cover	part_of	gas turbine
+wind	location	gas turbine
+released	in	gas turbine
+flowpath	of	gas turbine
+cycle	of	gas turbine
+used	object	air
+admit	object	air
+air	quantity	70
+70	adjmod	much
+piston engine	adjmod	sized
+sized	advmod	equivalently
+air	as	piston engine
+admit	over	time period
+time period	adjmod	same
+suggest	clause	that
+suggest	object_clause	burnt
+that	verb_clause	burnt
+engine	requires	fuel
+gas turbine	requires	fuel
+generator	requires	fuel
+turbofan engine	requires	fuel
+turbojet	requires	fuel
+turboprop engine	requires	fuel
+heat engine	requires	fuel
+combustion	with	fuel
+burnt	object	fuel
+fuel	quantity	70
+70	advmod	more
+is	agent	energy
+released	agent	energy
+energy	quantity	70
+70	adjmod	much
+burnt	cause	released
+used	manner	however
+air	neg	not
+used	for	combustion
+combustion	adjmod	complete
+used	assumption	is
+oxygen	of	third
+used	object	third
+third	quantity	one
+passing	agent	oxygen
+air	in	oxygen
+slot	part_of	gas turbine
+fan obj complex	part_of	gas turbine
+cover	part_of	gas turbine
+wind	location	gas turbine
+passing	through	gas turbine
+used	for	combustion
+is	manner	higher
+higher	advmod	23
+size	of	engine
+higher	than	engine
+size	adjmod	same
+give	object_clause	varies
+energy release rate	of	ratio
+varies	agent	ratio
+varies	with	size
+give	agent	comparison
+comparison	of	engines
+engines	adjmod	large
+give	object	energy release rate
+energy release rate	adjmod	different
+energy release rate	from	comparison
+comparison	of	engines
+engines	adjmod	small
+move	manner	able to
+being	manner	able to
+move	object	air
+air	adjmod	more
+running	object	engine
+change	through	engine
+have	agent	engine
+passing	through	engine
+approaches	object	engine
+passing	through	engine
+move	through	engine
+move	conj	burn
+burn	manner	therefore
+engine	requires	fuel
+gas turbine	requires	fuel
+generator	requires	fuel
+turbofan engine	requires	fuel
+turbojet	requires	fuel
+turboprop engine	requires	fuel
+heat engine	requires	fuel
+needed	agent	fuel
+increases	object	fuel
+burn	object	fuel
+fuel	adjmod	more
+means	clause	that
+means	object_clause	be
+that	verb_clause	be
+slot	part_of	gas turbine
+fan obj complex	part_of	gas turbine
+cover	part_of	gas turbine
+wind	location	gas turbine
+be	agent	gas turbine
+be	manner	powerful
+powerful	advmod	very
+be	for	size
+size	adjmod	given
+is	manner	however
+slot	part_of	gas turbine
+fan obj complex	part_of	gas turbine
+cover	part_of	gas turbine
+wind	location	gas turbine
+needed	agent	gas turbine
+is	agent	gas turbine
+is	manner	costly
+needed	object	materials
+materials	adjmod	expensive
+needed	purpose	withstand
+temperature	adjmod	high
+high	advmod	continuously
+be	agent	temperature
+is	agent	temperature
+withstand	object	temperature
+fuel injector	part_of	combustor
+turbine blade	part_of	turbine
+bearing	part_of	turbine
+vane	part_of	turbine
+combustor	conj	turbine
+be	agent	Gas temperature
+be	manner	higher
+be	in	piston engine
+cycle	in	points
+points	adjmod	certain
+is	manner	overall
+temperature	adjmod	average
+temperature	in	piston engine
+is	manner	lower
+lower	advmod	much
+used	agent	materials
+be	agent	materials
+be	imply	used
+be	manner	cheaper
+be	agent	pressures
+Gas temperature	conj	pressures

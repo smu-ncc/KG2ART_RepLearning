@@ -1,0 +1,181 @@
+metres	quantity	1,000
+metres	adjmod	cubic
+metres	rate	second
+were	if	extend
+stretching	agent	cylinder
+were	object	cylinder
+intake	of	diameter
+cylinder	is_a	diameter
+stretching	manner	out
+stretching	in	front
+extend	for	metres
+metres	quantity	200
+extend	conj	consumed
+consumed	in	second
+second	quantity	one
+is	agent	task
+task	adjmod	next
+is	purpose	make
+make	object_clause	lift off
+produces	object_clause	weighs
+engines	possessed_by	aircraft
+lands	agent	aircraft
+descends	agent	aircraft
+slows	agent	aircraft
+becomes	agent	aircraft
+cruise	agent	aircraft
+push	object	aircraft
+going	agent	aircraft
+weighs	agent	aircraft
+weighs	object	tonnes
+tonnes	quantity	368
+produces	agent	each
+provide	agent	engines
+required	object	engines
+each	of	engines
+Trent 500	quantity	four
+produces	object	tonnes
+tonnes	quantity	twenty-five
+tonnes	of	thrust
+produces	at	take-off
+giving	object	output
+output	adjmod	total
+output	of	tonnes
+tonnes	quantity	100
+tonnes	of	thrust
+turned	object	take-off
+is	agent	take-off
+take-off	adjmod	vertical
+is	manner	therefore
+is	neg	not
+is	object	option
+is	conj	passes
+going	cause	passes
+going	manner	forwards
+push	through	air
+passes	agent	air
+passes	over	wings
+passes	conj	turned
+turned	manner	downwards
+turned	purpose	create
+create	object	lift
+has	object_clause	gives
+gives	at	takeoff
+gives	agent	wing
+gives	object	tonne
+more	than	tonne
+tonne	quantity	one
+tonne	of	lift
+tonne	per	metre
+metre	adjmod	square
+get	agent	a340
+climb	agent	a340
+has	agent	a340
+has	object	metres
+metres	quantity	437
+metres	adjmod	square
+lift	from	wing
+drag	from	wing
+metres	of	wing
+has	imply	get
+get	manner	airborne
+get	conj	climb
+provide	neg	not
+provide	object	lift
+lift	adjmod	direct
+provide	conj	required
+required	purpose	push
+drag	of	airframe
+drag	adjmod	lift-induce
+increases	agent	Flight speed
+equals	agent	engine thrust
+equals	object	drag
+cruise	manner	now
+cruise	with	lift
+lift	adjmod	constant
+gains	manner	slowly
+gains	object	height
+gains	co-occurrence	consumed
+consumed	object	fuel
+consumed	conj	becomes
+becomes	manner	lighter
+slows	object_clause	decreased
+decreased	manner	then
+decreased	object	engine thrust
+decreased	by	reducing
+reducing	object	fuel flow
+slows	manner	down
+slows	conj	descends
+descends	conj	lands
+is	agent	this
+is	object	cruise profile
+cruise profile	adjmod	typical
+cruise profile	for	airliner
+airliner	adjmod	civil
+turbine blade	part_of	fan obj complex
+disc	part_of	fan obj complex
+blades	part_of	fan obj complex
+turbine	part_of	turbojet
+room	part_of	turbojet
+rotor	part_of	turbojet
+bearing	part_of	turbojet
+fan obj complex	part_of	turbojet
+compressor	part_of	turbojet
+turbine	part_of	turbojet
+turbines	part_of	turbojet
+compressors	part_of	turbojet
+turbine	part_of	turbojet
+turbine	part_of	turbojet
+compressor	part_of	turbojet
+turbine	part_of	turbojet
+turbine	part_of	turbofan engine
+exhaust nozzle	part_of	turbofan engine
+shaft	part_of	turbofan engine
+input nozzle	part_of	turbofan engine
+annular combustor	part_of	turbofan engine
+can combustor	part_of	turbofan engine
+cannular combustor	part_of	turbofan engine
+double annular combustor	part_of	turbofan engine
+combustor	part_of	turbofan engine
+fan obj complex	part_of	turbofan engine
+compressor	part_of	turbofan engine
+turbine	part_of	turbofan engine
+combustor	part_of	turbofan engine
+turbines	part_of	turbofan engine
+compressors	part_of	turbofan engine
+turbine	part_of	turbofan engine
+turbine	part_of	turbofan engine
+combustor	part_of	turbofan engine
+intake	part_of	turbofan engine
+compressor	part_of	turbofan engine
+turbine	part_of	turbofan engine
+shroud	part_of	vane
+bearing housing obj part	part_of	bearing
+shroud	connected_to	turbine blade
+turbine	connected_to	shaft
+turbine	connected_to	shaft
+turbines	connected_to	shaft
+turbine	connected_to	shaft
+turbine	connected_to	shaft
+turbine	connected_to	shaft
+turbine	connected_to	exhaust nozzle
+turbine	connected_to	exhaust nozzle
+turbines	connected_to	exhaust nozzle
+turbine	connected_to	exhaust nozzle
+turbine	connected_to	exhaust nozzle
+turbine	connected_to	exhaust nozzle
+rotor	part_of	compressor
+bearing	part_of	compressor
+turbine blade	part_of	turbine
+bearing	part_of	turbine
+vane	part_of	turbine
+blades	part_of	turbine
+shroud	part_of	rotor assembly
+turbine blade	part_of	rotor assembly
+blades	part_of	rotor assembly
+rotor assembly	part_of	helicopter
+turbine blade	part_of	helicopter
+blades	part_of	helicopter
+arrive	agent	engine
+energy	recipient	engine
+fuel injector	part_of	combustor
