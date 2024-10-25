@@ -1,0 +1,35 @@
+2024-10-03 23:38:11,422 INFO    MainThread:2364 [wandb_setup.py:_flush():68] Configure stats pid to 2364
+2024-10-03 23:38:11,422 INFO    MainThread:2364 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\.config\wandb\settings
+2024-10-03 23:38:11,423 INFO    MainThread:2364 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\wandb\settings
+2024-10-03 23:38:11,423 INFO    MainThread:2364 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-10-03 23:38:11,423 INFO    MainThread:2364 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-03 23:38:11,423 INFO    MainThread:2364 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\wandb\run-20241003_233811-0zfbpx5r\logs\debug.log
+2024-10-03 23:38:11,424 INFO    MainThread:2364 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\wandb\run-20241003_233811-0zfbpx5r\logs\debug-internal.log
+2024-10-03 23:38:11,424 INFO    MainThread:2364 [wandb_init.py:_jupyter_setup():438] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000022D4A11A8E0>
+2024-10-03 23:38:11,425 INFO    MainThread:2364 [wandb_init.py:init():532] calling init triggers
+2024-10-03 23:38:11,425 INFO    MainThread:2364 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {}
+2024-10-03 23:38:11,425 INFO    MainThread:2364 [wandb_init.py:init():554] re-initializing run, found existing run on stack: rsn2urx3
+2024-10-03 23:38:11,427 INFO    MainThread:2364 [wandb_run.py:_finish():1854] finishing run shan_proj/ssl-relation-prediction/rsn2urx3
+2024-10-03 23:38:11,427 INFO    MainThread:2364 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2024-10-03 23:38:11,427 INFO    MainThread:2364 [wandb_run.py:_restore():2066] restore
+2024-10-03 23:38:11,428 INFO    MainThread:2364 [wandb_run.py:_restore():2072] restore done
+2024-10-03 23:38:41,720 INFO    MainThread:2364 [wandb_init.py:init():588] starting backend
+2024-10-03 23:38:41,720 INFO    MainThread:2364 [wandb_init.py:init():592] setting up manager
+2024-10-03 23:38:41,725 INFO    MainThread:2364 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2024-10-03 23:38:41,730 INFO    MainThread:2364 [wandb_init.py:init():599] backend started and connected
+2024-10-03 23:38:41,741 INFO    MainThread:2364 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2024-10-03 23:38:41,741 INFO    MainThread:2364 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-10-03 23:38:41,741 INFO    MainThread:2364 [wandb_init.py:init():687] updated telemetry
+2024-10-03 23:38:41,756 INFO    MainThread:2364 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2024-10-03 23:39:42,273 ERROR   MainThread:2364 [wandb_init.py:init():741] backend process timed out, exiting...
+encountered error: Error communicating with wandb process, exiting...
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2024-10-03 23:39:42,290 ERROR   MainThread:2364 [wandb_init.py:init():1160] error
+Traceback (most recent call last):
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_init.py", line 1133, in init
+    run = wi.init()
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_init.py", line 759, in init
+    raise error
+wandb.errors.CommError: Error communicating with wandb process, exiting...
+For more info see: https://docs.wandb.ai/library/init#init-start-error

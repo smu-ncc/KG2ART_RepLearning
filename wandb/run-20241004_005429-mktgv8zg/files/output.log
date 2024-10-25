@@ -1,0 +1,107 @@
+2
+gtttt
+Creating a sampler of size 544230
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  4%|██▊                                                                      | 20800/544230 [03:43<1:33:50, 92.97it/s]
+DATA_PATH: C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\data
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\data\FB15K-237\train.txt
+DATA_PATH: C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\train.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\valid.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\test.txt
+14541 entities and 237 relations
+DATA_PATH: C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\train.txt
+DATA_PATH: C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\train.txt
+DATA_PATH: C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\train.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\valid.txt
+DATA_PATH: C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\train.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\valid.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\test.txt
+14541 entities and 237 relations
+DATA_PATH: C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\data\FB15K-237\train.txt
+DATA_PATH: C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\data
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\train.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\valid.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237\test.txt
+14541 entities and 237 relations
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\FB15K-237
+creating filtering lists
+Done processing!
+DATA_PATH: C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\data
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\NATIONS\train.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\NATIONS\valid.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\NATIONS\test.txt
+14 entities and 55 relations
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\NATIONS
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\NATIONS
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\NATIONS
+creating filtering lists
+Done processing!
+DATA_PATH: C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\data
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\Kinship\train.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\Kinship\valid.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\Kinship\test.txt
+104 entities and 25 relations
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\Kinship
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\Kinship
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\Kinship
+creating filtering lists
+Done processing!
+DATA_PATH: C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\data
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\UMLS\train.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\UMLS\valid.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\UMLS\test.txt
+135 entities and 46 relations
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\UMLS
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\UMLS
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\UMLS
+creating filtering lists
+Done processing!
+DATA_PATH: C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\data
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\codex-m\train.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\codex-m\valid.txt
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\codex-m\test.txt
+17050 entities and 51 relations
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\codex-m
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\codex-m
+C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\src_data\codex-m
+creating filtering lists
