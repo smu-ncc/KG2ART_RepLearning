@@ -1,0 +1,31 @@
+2023-03-29 15:37:42,069 INFO    MainThread:14636 [wandb_setup.py:_flush():68] Configure stats pid to 14636
+2023-03-29 15:37:42,069 INFO    MainThread:14636 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\.config\wandb\settings
+2023-03-29 15:37:42,069 INFO    MainThread:14636 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\settings
+2023-03-29 15:37:42,069 INFO    MainThread:14636 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-03-29 15:37:42,069 INFO    MainThread:14636 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-29 15:37:42,070 INFO    MainThread:14636 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230329_153742-trrm52vs\logs\debug.log
+2023-03-29 15:37:42,070 INFO    MainThread:14636 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230329_153742-trrm52vs\logs\debug-internal.log
+2023-03-29 15:37:42,070 INFO    MainThread:14636 [wandb_init.py:_jupyter_setup():438] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001F757868B20>
+2023-03-29 15:37:42,071 INFO    MainThread:14636 [wandb_init.py:init():532] calling init triggers
+2023-03-29 15:37:42,071 INFO    MainThread:14636 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {}
+2023-03-29 15:37:42,071 INFO    MainThread:14636 [wandb_init.py:init():588] starting backend
+2023-03-29 15:37:42,071 INFO    MainThread:14636 [wandb_init.py:init():592] setting up manager
+2023-03-29 15:37:42,080 INFO    MainThread:14636 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-29 15:37:42,089 INFO    MainThread:14636 [wandb_init.py:init():599] backend started and connected
+2023-03-29 15:37:42,112 INFO    MainThread:14636 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-03-29 15:37:42,114 INFO    MainThread:14636 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-29 15:37:42,114 INFO    MainThread:14636 [wandb_init.py:init():687] updated telemetry
+2023-03-29 15:37:42,131 INFO    MainThread:14636 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-03-29 15:37:42,786 INFO    MainThread:14636 [wandb_run.py:_on_init():2134] communicating current version
+2023-03-29 15:37:42,877 INFO    MainThread:14636 [wandb_run.py:_on_init():2143] got version response upgrade_message: "wandb version 0.14.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-29 15:37:42,877 INFO    MainThread:14636 [wandb_init.py:init():775] starting run threads in backend
+2023-03-29 15:37:43,068 INFO    MainThread:14636 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-29 15:37:43,068 INFO    MainThread:14636 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-29 15:37:43,068 INFO    MainThread:14636 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-29 15:37:43,068 INFO    MainThread:14636 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-29 15:37:43,069 INFO    MainThread:14636 [wandb_init.py:init():817] run started, returning control to user process
+2023-03-29 15:37:43,071 INFO    MainThread:14636 [wandb_run.py:_config_callback():1250] config_cb None None {'alias': '', 'experiment_id': '', 'run_tags': [], 'run_notes': '', 'seed': 0, 'device': 'cpu', 'dataset': 'FB15K-237', 'reciprocal': True, 'model': 'ComplEx', 'rank': 1000, 'rank_r': 100, 'init': 0.001, 'dropout': 0, 'lmbda': 0.05, 'world': 'LCWA', 'num_neg': 0, 'score_rel': True, 'score_lhs': False, 'score_rhs': True, 'w_rel': 4.0, 'w_lhs': 1, 'regularizer': 'N3', 'optimizer': 'Adagrad', 'max_epochs': 100, 'valid': 3, 'batch_size': 1000, 'learning_rate': 0.1, 'decay1': 0.9, 'decay2': 0.999, 'cache_eval': None, 'model_cache_path': None, 'size': [14541, 474, 14541], 'loss': 'CrossEntropyLoss()'}
+2023-03-29 15:37:43,073 INFO    MainThread:14636 [wandb_watch.py:watch():51] Watching
+2023-03-29 16:16:03,410 WARNING MsgRouterThr:14636 [router.py:message_loop():77] message_loop has been closed
