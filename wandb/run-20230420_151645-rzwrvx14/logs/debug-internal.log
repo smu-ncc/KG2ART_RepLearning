@@ -1,0 +1,1205 @@
+2023-04-20 15:16:45,285 INFO    StreamThr :30112 [internal.py:wandb_internal():87] W&B internal server running at pid: 30112, started at: 2023-04-20 15:16:45.285589
+2023-04-20 15:16:45,287 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status
+2023-04-20 15:16:45,299 INFO    WriterThread:30112 [datastore.py:open_for_write():85] open: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\run-rzwrvx14.wandb
+2023-04-20 15:16:45,300 DEBUG   SenderThread:30112 [sender.py:send():336] send: header
+2023-04-20 15:16:45,305 DEBUG   SenderThread:30112 [sender.py:send():336] send: run
+2023-04-20 15:16:45,972 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: check_version
+2023-04-20 15:16:45,973 INFO    SenderThread:30112 [dir_watcher.py:__init__():216] watching files in: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files
+2023-04-20 15:16:45,973 INFO    SenderThread:30112 [sender.py:_start_run_threads():1067] run started: rzwrvx14 with start time 1681975005.286416
+2023-04-20 15:16:45,974 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:45,976 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:45,976 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: check_version
+2023-04-20 15:16:46,394 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: run_start
+2023-04-20 15:16:46,425 DEBUG   HandlerThread:30112 [system_info.py:__init__():31] System info init
+2023-04-20 15:16:46,425 DEBUG   HandlerThread:30112 [system_info.py:__init__():46] System info init done
+2023-04-20 15:16:46,425 INFO    HandlerThread:30112 [system_monitor.py:start():151] Starting system monitor
+2023-04-20 15:16:46,426 INFO    SystemMonitor:30112 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-04-20 15:16:46,427 INFO    HandlerThread:30112 [system_monitor.py:probe():172] Collecting system info
+2023-04-20 15:16:46,438 INFO    SystemMonitor:30112 [interfaces.py:start():168] Started cpu
+2023-04-20 15:16:46,438 DEBUG   HandlerThread:30112 [system_info.py:probe():195] Probing system
+2023-04-20 15:16:46,438 INFO    SystemMonitor:30112 [interfaces.py:start():168] Started disk
+2023-04-20 15:16:46,439 INFO    SystemMonitor:30112 [interfaces.py:start():168] Started memory
+2023-04-20 15:16:46,450 INFO    SystemMonitor:30112 [interfaces.py:start():168] Started network
+2023-04-20 15:16:46,454 DEBUG   HandlerThread:30112 [git.py:repo():40] git repository is invalid
+2023-04-20 15:16:46,455 DEBUG   HandlerThread:30112 [system_info.py:probe():241] Probing system done
+2023-04-20 15:16:46,455 DEBUG   HandlerThread:30112 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.9.0', 'heartbeatAt': '2023-04-20T07:16:46.438233', 'startedAt': '2023-04-20T07:16:45.271394', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'shanthod0QG3L', 'username': 'shanthod', 'executable': 'C:\\Users\\shanthod\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1805.0, 'min': 0.0, 'max': 1805.0}, 'cpu_freq_per_core': [{'current': 1805.0, 'min': 0.0, 'max': 1805.0}], 'disk': {'total': 474.31444931030273, 'used': 404.09090423583984}, 'memory': {'total': 31.72928237915039}}
+2023-04-20 15:16:46,455 INFO    HandlerThread:30112 [system_monitor.py:probe():182] Finished collecting system info
+2023-04-20 15:16:46,455 INFO    HandlerThread:30112 [system_monitor.py:probe():185] Publishing system info
+2023-04-20 15:16:46,455 DEBUG   HandlerThread:30112 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-20 15:16:46,459 DEBUG   HandlerThread:30112 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-20 15:16:46,464 INFO    HandlerThread:30112 [system_monitor.py:probe():187] Finished publishing system info
+2023-04-20 15:16:46,477 DEBUG   SenderThread:30112 [sender.py:send():336] send: files
+2023-04-20 15:16:46,477 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-04-20 15:16:46,497 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-20 15:16:46,497 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: stop_status
+2023-04-20 15:16:46,772 DEBUG   SenderThread:30112 [sender.py:send():336] send: telemetry
+2023-04-20 15:16:46,774 DEBUG   SenderThread:30112 [sender.py:send():336] send: config
+2023-04-20 15:16:46,774 DEBUG   SenderThread:30112 [sender.py:send():336] send: telemetry
+2023-04-20 15:16:46,775 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:46,777 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:46,778 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:46,781 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:46,799 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:46,799 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:46,799 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:46,799 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:46,982 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:16:46,983 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\requirements.txt
+2023-04-20 15:16:46,984 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:16:46,985 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-metadata.json
+2023-04-20 15:16:47,988 INFO    wandb-upload_0:30112 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\AppData\Local\Temp\tmp8n47tyxswandb\bw0a6pl2-wandb-metadata.json
+2023-04-20 15:16:48,257 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:48,258 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:48,259 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:48,259 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:16:48,259 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:48,260 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:48,261 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:48,262 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:48,272 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:48,273 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:48,280 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:48,280 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:48,286 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:48,287 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:48,292 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:48,293 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:48,310 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:48,312 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:48,318 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:48,318 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:48,323 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:48,323 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:48,328 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:49,000 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:16:49,001 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:16:49,174 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:49,179 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:50,013 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:16:50,040 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:50,046 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:50,339 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:16:51,027 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:16:51,028 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:16:51,355 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:51,359 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:51,359 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:16:51,359 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:51,359 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:51,360 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:51,361 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:51,361 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:51,383 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:51,384 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:51,389 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:51,390 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:51,397 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:51,398 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:51,405 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:51,406 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:51,412 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:51,413 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:51,417 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:51,418 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:51,424 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:51,425 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:51,432 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:52,037 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:16:52,243 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:52,249 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:53,050 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:16:53,051 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:16:53,100 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:53,107 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:54,063 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:16:54,358 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:54,359 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:54,360 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:54,361 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:16:54,361 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:54,362 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:54,363 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:54,365 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:54,371 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:54,372 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:54,379 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:55,075 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:16:55,075 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:16:55,255 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:55,261 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:55,557 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:16:56,090 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:16:56,150 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:56,155 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:57,104 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:16:57,104 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:16:57,415 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:57,416 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:57,417 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:16:57,417 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:57,418 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:57,418 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:57,420 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:57,420 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:16:57,425 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:57,426 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:57,432 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:58,114 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:16:58,273 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:58,279 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:16:59,129 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:16:59,130 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:16:59,145 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:16:59,152 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:00,131 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:00,426 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:00,426 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:00,427 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:00,427 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:00,427 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:00,428 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:00,429 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:00,429 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:00,438 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:00,439 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:00,445 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:00,446 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:00,451 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:00,452 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:00,459 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:00,460 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:00,465 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:00,466 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:00,470 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:00,471 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:00,475 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:00,476 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:00,480 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:00,735 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:17:01,142 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:01,143 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:01,283 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:01,289 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:01,515 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:01,515 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:02,108 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:02,113 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:02,149 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:03,165 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:03,806 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:03,807 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:03,808 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:03,808 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:03,808 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:03,809 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:03,809 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:03,810 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:03,817 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:03,818 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:03,824 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:04,176 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:05,050 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:05,057 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:05,190 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:05,191 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:05,954 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:17:06,406 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:06,413 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:06,576 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:07,216 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:07,217 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:08,292 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:08,293 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:08,295 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:08,295 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:08,295 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:08,296 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:08,296 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:08,297 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:08,308 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:08,309 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:08,314 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:08,330 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:08,338 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:08,339 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:08,345 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:08,347 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:08,354 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:08,354 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:08,360 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:08,361 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:08,367 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:08,368 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:08,373 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:09,230 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:09,231 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:09,682 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:09,691 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:10,234 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:11,139 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:11,147 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:11,149 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:17:11,247 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:11,248 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:11,619 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:13,010 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:13,010 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:13,012 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:13,013 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:13,013 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:13,014 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:13,014 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:13,016 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:13,023 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:13,023 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:13,029 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:13,272 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:13,273 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:14,352 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:14,359 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:15,299 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:15,300 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:15,691 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:15,698 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:16,185 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:17:16,313 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:16,683 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:17,318 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\config.yaml
+2023-04-20 15:17:17,319 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:17,439 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:17,441 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:17,442 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:17,442 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:17,442 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:17,443 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:17,443 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:17,443 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:17,453 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:17,454 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:17,459 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:17,460 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:17,466 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:17,467 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:17,474 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:17,475 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:17,481 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:17,482 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:17,487 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:17,488 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:17,492 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:17,493 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:17,499 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:18,334 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:18,815 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:18,821 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:19,345 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:19,347 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:20,092 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:20,099 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:20,361 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:21,367 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:21,572 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:17:21,737 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:21,898 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:21,899 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:21,899 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:21,899 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:21,901 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:21,901 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:21,902 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:21,903 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:21,912 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:21,915 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:21,921 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:21,921 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:21,926 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:21,927 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:21,933 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:21,934 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:21,938 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:21,939 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:21,943 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:21,944 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:21,950 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:21,952 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:21,957 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:22,371 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:23,268 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:23,274 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:23,384 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:23,385 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:24,588 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:24,596 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:25,406 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:25,407 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:26,405 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:26,407 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:26,408 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:26,408 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:26,409 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:26,409 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:26,410 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:26,410 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:26,418 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:26,419 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:26,420 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:26,424 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:26,790 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:26,848 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:17:27,426 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:27,693 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:27,700 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:28,437 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:28,977 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:28,985 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:29,441 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:29,443 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:29,446 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:29,448 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:29,449 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:29,449 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:29,449 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:29,449 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:29,458 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:30,453 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:31,084 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:31,086 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:31,087 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:31,087 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:31,088 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:31,088 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:31,089 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:31,090 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:31,097 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:31,099 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:31,104 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:31,462 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:31,463 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:31,829 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:31,854 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:17:32,335 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:32,342 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:32,468 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:33,478 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:33,628 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:33,635 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:34,489 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:35,495 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:35,496 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:35,497 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:35,498 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:35,498 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:35,500 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:35,501 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:35,502 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:35,504 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:35,504 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:35,505 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:35,506 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:35,512 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:36,514 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:36,743 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:36,749 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:36,882 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:37,184 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:17:37,524 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:37,525 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:38,045 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:38,054 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:38,532 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:39,547 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:39,941 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:39,942 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:39,942 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:39,943 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:39,943 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:39,944 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:39,945 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:39,946 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:39,952 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:39,953 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:39,961 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:40,556 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:41,213 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:41,220 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:41,570 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:41,571 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:41,936 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:42,523 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:42,530 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:42,531 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:17:42,577 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:43,591 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:44,484 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:44,486 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:44,487 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:44,488 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:44,488 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:44,488 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:44,488 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:44,489 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:44,496 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:44,498 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:44,504 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:44,603 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:45,615 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:45,857 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:45,864 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:46,455 DEBUG   SystemMonitor:30112 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-04-20 15:17:46,457 DEBUG   SenderThread:30112 [sender.py:send():336] send: stats
+2023-04-20 15:17:46,631 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:47,003 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:47,218 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:47,224 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:47,634 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:17:47,643 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:47,644 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:49,058 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:49,059 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:49,059 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:49,060 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:49,060 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:49,060 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:49,061 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:49,062 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:49,067 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:49,067 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:49,076 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:49,664 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:49,665 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:50,438 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:50,446 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:50,672 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:51,683 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:51,705 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:51,712 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:52,053 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:52,681 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:17:52,694 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:53,708 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:53,712 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:53,714 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:53,714 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:53,714 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:53,714 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:53,715 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:53,715 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:53,718 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:53,726 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:53,726 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:53,731 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:54,722 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:55,085 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:55,092 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:55,736 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:55,737 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:56,348 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:56,356 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:56,742 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:57,116 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:17:57,754 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:57,830 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:17:58,211 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:58,212 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:58,212 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:58,212 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:58,212 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:17:58,212 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:58,213 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:58,214 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:17:58,222 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:58,224 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:58,229 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:58,768 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:17:59,522 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:17:59,527 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:17:59,782 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:17:59,782 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:00,807 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:00,816 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:01,801 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:01,801 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:02,157 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:18:02,765 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:02,766 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:02,768 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:02,768 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:02,768 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:02,770 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:02,771 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:02,771 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:02,778 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:02,779 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:02,785 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:02,815 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:02,846 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:18:03,828 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:04,064 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:04,072 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:04,841 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:05,345 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:05,354 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:05,852 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:05,854 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:07,223 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:18:07,382 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:07,382 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:07,383 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:07,383 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:07,383 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:07,384 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:07,384 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:07,384 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:07,392 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:07,392 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:07,398 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:07,851 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:18:07,879 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:07,880 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:08,631 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:08,639 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:08,886 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:09,902 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:09,980 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:09,987 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:10,912 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:11,876 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:11,879 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:11,879 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:11,880 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:11,880 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:11,880 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:11,880 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:11,880 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:11,887 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:11,887 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:11,894 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:11,922 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:11,923 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:12,279 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:18:13,176 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:13,184 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:13,185 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:18:13,945 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:13,946 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:14,494 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:14,500 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:14,956 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:15,970 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:16,391 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:16,393 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:16,394 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:16,394 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:16,394 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:16,395 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:16,395 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:16,395 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:16,403 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:16,404 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:16,410 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:16,464 DEBUG   SenderThread:30112 [sender.py:send():336] send: stats
+2023-04-20 15:18:16,973 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:17,327 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:18:17,658 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:17,666 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:17,984 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:17,985 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:18,196 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:18:19,089 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:19,097 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:19,948 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:19,949 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:19,949 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:19,951 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:19,951 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:19,951 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:19,958 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:20,012 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:20,012 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:21,074 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:21,075 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:21,076 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:21,077 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:21,077 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:21,077 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:21,077 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:21,077 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:21,084 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:21,085 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:21,090 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:22,031 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:22,031 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:22,207 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:22,215 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:22,383 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:18:23,038 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:23,570 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:23,577 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:23,578 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:18:24,052 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:24,053 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:25,545 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:25,547 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:25,548 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:25,549 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:25,549 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:25,550 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:25,550 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:25,551 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:25,561 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:25,562 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:25,568 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:25,569 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:25,574 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:25,575 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:25,582 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:25,582 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:25,589 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:25,589 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:25,595 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:25,596 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:25,601 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:25,602 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:25,606 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:26,077 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:26,077 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:26,820 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:26,829 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:27,089 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:27,444 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:18:28,098 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:28,230 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:28,236 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:28,656 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:18:29,107 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:30,123 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:30,192 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:30,192 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:30,193 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:30,193 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:30,193 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:30,194 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:30,194 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:30,195 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:30,201 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:30,202 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:30,208 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:31,132 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:31,435 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:31,443 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:32,153 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:32,154 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:32,489 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:18:32,756 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:32,764 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:33,160 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:33,687 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:18:34,177 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:34,889 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:34,891 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:34,891 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:34,892 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:34,893 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:34,893 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:34,894 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:34,894 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:34,902 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:34,903 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:34,910 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:35,181 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:36,122 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:36,128 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:36,200 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:36,200 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:37,337 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:37,344 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:37,547 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:18:38,219 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:38,219 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:38,733 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:18:39,421 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:39,422 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:39,423 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:39,424 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:39,424 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:39,425 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:39,425 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:39,426 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:39,434 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:39,436 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:39,441 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:40,248 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:40,249 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:40,708 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:40,716 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:41,259 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:42,089 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:42,096 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:42,280 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:42,281 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:42,616 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:18:43,774 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:18:44,053 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:44,054 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:44,055 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:44,055 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:44,056 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:44,057 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:44,059 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:44,059 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:44,064 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:44,065 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:44,071 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:44,295 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:44,296 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:45,322 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:45,329 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:46,332 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:46,333 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:46,467 DEBUG   SenderThread:30112 [sender.py:send():336] send: stats
+2023-04-20 15:18:46,589 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:46,596 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:47,340 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:47,668 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:18:48,358 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:48,539 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:48,541 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:48,543 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:48,543 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:48,544 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:48,544 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:48,545 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:48,546 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:48,552 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:48,552 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:48,558 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:48,988 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:18:49,365 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:49,838 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:49,844 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:50,394 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:50,395 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:51,111 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:51,117 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:51,411 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:52,441 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:52,731 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:18:53,068 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:53,070 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:53,071 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:53,071 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:53,072 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:53,073 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:53,074 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:53,074 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:53,082 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:53,083 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:53,089 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:53,447 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:54,037 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:18:54,340 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:54,346 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:54,467 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:54,468 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:55,588 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:55,595 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:56,487 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:56,488 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:57,609 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:57,610 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:57,611 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:18:57,613 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:57,614 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:57,614 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:57,615 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:57,615 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:18:57,620 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:57,622 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:57,627 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:57,798 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:18:58,513 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:18:58,513 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:18:58,889 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:18:58,896 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:18:59,344 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:18:59,523 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:19:00,229 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:19:00,236 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:19:00,542 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:19:00,543 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:19:02,271 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:02,272 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:02,273 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:02,273 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:02,273 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:02,273 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:19:02,274 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:02,274 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:19:02,282 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:19:02,283 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:19:02,288 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:19:02,563 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:19:02,563 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:19:02,843 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:19:03,503 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:19:03,511 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:19:03,578 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:19:04,386 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:19:04,607 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:19:04,809 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:19:04,816 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:19:05,620 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:19:06,638 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:19:06,804 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:06,805 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:06,805 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:06,805 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:19:06,807 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:06,807 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:19:06,808 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:06,809 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:06,815 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:19:06,816 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:19:06,822 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:19:07,644 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:19:07,910 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:19:08,068 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:19:08,076 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:19:08,676 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:19:08,677 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:19:09,414 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:19:09,421 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:19:09,422 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:19:09,685 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:19:10,706 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:19:10,731 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:10,732 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:10,733 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:10,734 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:19:10,734 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:10,734 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:19:10,741 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:19:11,398 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:11,400 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:11,400 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:19:11,401 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:19:11,401 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:11,402 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:11,403 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:11,403 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-20 15:19:11,408 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:19:11,522 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:19:11,528 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:19:11,529 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: pause
+2023-04-20 15:19:11,529 INFO    HandlerThread:30112 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-04-20 15:19:11,529 INFO    HandlerThread:30112 [system_monitor.py:finish():161] Stopping system monitor
+2023-04-20 15:19:11,530 DEBUG   SystemMonitor:30112 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-04-20 15:19:11,531 DEBUG   SystemMonitor:30112 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-04-20 15:19:11,531 INFO    HandlerThread:30112 [interfaces.py:finish():175] Joined cpu
+2023-04-20 15:19:11,531 INFO    HandlerThread:30112 [interfaces.py:finish():175] Joined disk
+2023-04-20 15:19:11,531 INFO    HandlerThread:30112 [interfaces.py:finish():175] Joined memory
+2023-04-20 15:19:11,531 INFO    HandlerThread:30112 [interfaces.py:finish():175] Joined network
+2023-04-20 15:19:11,532 DEBUG   SenderThread:30112 [sender.py:send():336] send: stats
+2023-04-20 15:19:11,708 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:19:12,723 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:19:12,958 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:19:14,540 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:19:14,746 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:19:18,006 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:19:19,601 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:19:23,062 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:19:24,648 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:19:28,103 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:19:29,699 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:19:33,160 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:19:34,764 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:19:38,219 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:19:39,821 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:19:43,277 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:19:44,878 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:19:48,333 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:19:49,939 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:19:53,398 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:19:54,999 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:19:58,452 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:00,054 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:20:03,513 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:05,118 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:20:08,576 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:10,177 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:20:13,636 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:15,238 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:20:18,688 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:18,689 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:20,316 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:20:23,739 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:25,370 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:20:28,798 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:30,427 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:20:33,847 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:35,481 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:20:38,908 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:40,543 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:20:43,970 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:45,604 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:20:49,021 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:50,656 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:20:54,078 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:20:55,713 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:20:59,137 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:21:00,773 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:21:04,180 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:21:05,832 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:21:09,235 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:21:10,888 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:21:14,303 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:21:15,933 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:21:19,363 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:21:20,992 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:21:24,412 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:21:26,048 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:21:29,471 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:21:31,108 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:21:34,536 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:21:36,153 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:21:39,589 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:21:41,207 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:21:44,644 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:21:46,263 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:21:49,702 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:21:51,318 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:21:54,758 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:21:56,377 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:21:59,820 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:22:01,428 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:22:04,807 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:22:06,470 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:22:09,927 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:22:11,532 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:22:14,984 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:22:16,587 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:22:20,042 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:22:21,643 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:22:25,098 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:22:26,703 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:22:30,155 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:22:31,760 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:22:35,218 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:22:36,818 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:22:40,272 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:22:41,876 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:22:45,336 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:22:46,939 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:22:50,394 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:22:51,996 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:22:55,448 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:22:57,050 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:23:00,505 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:02,110 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:23:05,568 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:07,171 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:23:10,631 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:12,233 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:23:15,669 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:17,289 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:23:20,731 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:22,347 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:23:25,783 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:27,398 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:23:30,829 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:32,467 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:23:35,893 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:35,893 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:37,514 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:23:40,945 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:42,559 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:23:46,001 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:47,623 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:23:51,068 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:52,677 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:23:56,133 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:23:57,739 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:24:01,193 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:24:02,798 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:24:06,256 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:24:07,860 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:24:11,322 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:24:12,924 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:24:16,377 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:24:17,983 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:24:21,425 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:24:23,032 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:24:26,490 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:24:28,092 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:24:31,535 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:24:33,137 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:24:36,596 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:24:38,197 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:24:41,651 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:24:43,254 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:24:46,708 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:24:48,314 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:24:51,771 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:24:53,376 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:24:56,832 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:24:58,433 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:25:01,892 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:25:03,496 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:25:06,961 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:25:08,546 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:25:12,012 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:25:13,597 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:25:17,073 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:25:18,658 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:25:22,131 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:25:23,713 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:25:27,181 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:25:28,773 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:25:32,244 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:25:33,835 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:25:37,305 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:25:38,892 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:25:42,359 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:25:43,943 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:25:47,407 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:25:48,992 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:25:52,465 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:25:54,051 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:25:57,524 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:25:59,113 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:26:02,590 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:26:04,178 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:26:07,648 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:26:09,235 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:26:12,706 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:26:14,294 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:26:17,765 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:26:19,346 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:26:22,812 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:26:24,397 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:26:27,857 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:26:29,457 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:26:32,909 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:26:34,506 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:26:37,961 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:26:39,564 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:26:43,020 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-20 15:26:43,373 DEBUG   SenderThread:30112 [sender.py:send():336] send: exit
+2023-04-20 15:26:43,373 INFO    SenderThread:30112 [sender.py:send_exit():559] handling exit code: 0
+2023-04-20 15:26:43,373 INFO    SenderThread:30112 [sender.py:send_exit():561] handling runtime: 145
+2023-04-20 15:26:43,380 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:26:43,380 INFO    SenderThread:30112 [sender.py:send_exit():567] send defer
+2023-04-20 15:26:43,380 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:43,380 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-20 15:26:43,380 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:43,380 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-04-20 15:26:43,380 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 1
+2023-04-20 15:26:43,380 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:43,380 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-20 15:26:43,381 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:43,381 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-04-20 15:26:43,381 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 2
+2023-04-20 15:26:43,381 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:43,381 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-20 15:26:43,381 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:43,381 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-04-20 15:26:43,382 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 3
+2023-04-20 15:26:43,382 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:43,382 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-20 15:26:43,383 DEBUG   SenderThread:30112 [sender.py:send():336] send: history
+2023-04-20 15:26:43,383 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: summary_record
+2023-04-20 15:26:43,387 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:26:43,388 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:43,388 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-04-20 15:26:43,388 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 4
+2023-04-20 15:26:43,388 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:43,388 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-20 15:26:43,388 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:43,388 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-04-20 15:26:43,388 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 5
+2023-04-20 15:26:43,388 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:43,388 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-20 15:26:43,388 DEBUG   SenderThread:30112 [sender.py:send():336] send: summary
+2023-04-20 15:26:43,393 INFO    SenderThread:30112 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-20 15:26:43,394 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:43,394 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-04-20 15:26:43,394 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 6
+2023-04-20 15:26:43,394 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:43,394 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-20 15:26:43,394 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:43,394 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-04-20 15:26:43,394 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 7
+2023-04-20 15:26:43,394 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: status_report
+2023-04-20 15:26:43,394 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:43,394 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-20 15:26:43,394 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:43,394 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-04-20 15:26:43,880 INFO    Thread-17 :30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:26:44,407 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-20 15:26:45,803 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 8
+2023-04-20 15:26:45,803 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: poll_exit
+2023-04-20 15:26:45,804 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:45,804 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-20 15:26:45,805 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:45,805 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-04-20 15:26:45,812 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 9
+2023-04-20 15:26:45,813 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:45,813 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-20 15:26:45,813 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:45,813 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-04-20 15:26:45,813 INFO    SenderThread:30112 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-04-20 15:26:45,900 INFO    SenderThread:30112 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:26:45,900 INFO    SenderThread:30112 [dir_watcher.py:finish():392] scan: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files
+2023-04-20 15:26:45,901 INFO    SenderThread:30112 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\config.yaml config.yaml
+2023-04-20 15:26:45,901 INFO    SenderThread:30112 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log output.log
+2023-04-20 15:26:45,902 INFO    SenderThread:30112 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\requirements.txt requirements.txt
+2023-04-20 15:26:45,907 INFO    SenderThread:30112 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-metadata.json wandb-metadata.json
+2023-04-20 15:26:45,909 INFO    SenderThread:30112 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json wandb-summary.json
+2023-04-20 15:26:45,913 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 10
+2023-04-20 15:26:45,913 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:45,913 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-20 15:26:45,914 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:45,916 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-04-20 15:26:45,917 INFO    SenderThread:30112 [file_pusher.py:finish():162] shutting down file pusher
+2023-04-20 15:26:46,618 INFO    wandb-upload_3:30112 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\wandb-summary.json
+2023-04-20 15:26:46,655 INFO    wandb-upload_0:30112 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\config.yaml
+2023-04-20 15:26:46,694 INFO    wandb-upload_2:30112 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\requirements.txt
+2023-04-20 15:26:47,006 INFO    wandb-upload_1:30112 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\files\output.log
+2023-04-20 15:26:47,220 INFO    Thread-16 :30112 [sender.py:transition_state():587] send defer: 11
+2023-04-20 15:26:47,221 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:47,221 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-20 15:26:47,221 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:47,221 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-04-20 15:26:47,221 INFO    SenderThread:30112 [file_pusher.py:join():167] waiting for file pusher
+2023-04-20 15:26:47,221 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 12
+2023-04-20 15:26:47,221 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:47,221 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-20 15:26:47,221 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:47,221 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-04-20 15:26:48,163 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 13
+2023-04-20 15:26:48,163 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:48,163 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-20 15:26:48,164 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:48,164 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-04-20 15:26:48,164 INFO    SenderThread:30112 [sender.py:transition_state():587] send defer: 14
+2023-04-20 15:26:48,164 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: defer
+2023-04-20 15:26:48,164 INFO    HandlerThread:30112 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-20 15:26:48,164 DEBUG   SenderThread:30112 [sender.py:send():336] send: final
+2023-04-20 15:26:48,165 DEBUG   SenderThread:30112 [sender.py:send():336] send: footer
+2023-04-20 15:26:48,165 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: defer
+2023-04-20 15:26:48,165 INFO    SenderThread:30112 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-04-20 15:26:48,165 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-20 15:26:48,165 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: server_info
+2023-04-20 15:26:48,166 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-20 15:26:48,166 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-20 15:26:48,166 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: poll_exit
+2023-04-20 15:26:48,167 DEBUG   SenderThread:30112 [sender.py:send_request():363] send_request: server_info
+2023-04-20 15:26:48,727 INFO    MainThread:30112 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-04-20 15:26:48,727 INFO    MainThread:30112 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-04-20 15:26:48,734 INFO    MainThread:30112 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-04-20 15:26:48,734 DEBUG   HandlerThread:30112 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-20 15:26:48,734 INFO    HandlerThread:30112 [handler.py:finish():841] shutting down handler
+2023-04-20 15:26:49,182 INFO    WriterThread:30112 [datastore.py:close():299] close: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230420_151645-rzwrvx14\run-rzwrvx14.wandb
+2023-04-20 15:26:49,730 INFO    SenderThread:30112 [sender.py:finish():1493] shutting down sender
+2023-04-20 15:26:49,731 INFO    SenderThread:30112 [file_pusher.py:finish():162] shutting down file pusher
+2023-04-20 15:26:49,731 INFO    SenderThread:30112 [file_pusher.py:join():167] waiting for file pusher

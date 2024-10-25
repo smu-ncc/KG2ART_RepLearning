@@ -1,0 +1,35 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.9.0",
+    "heartbeatAt": "2023-04-20T08:39:04.229638",
+    "startedAt": "2023-04-20T08:39:03.432579",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "shanthod0QG3L",
+    "username": "shanthod",
+    "executable": "C:\\Users\\shanthod\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1805.0,
+        "min": 0.0,
+        "max": 1805.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1805.0,
+            "min": 0.0,
+            "max": 1805.0
+        }
+    ],
+    "disk": {
+        "total": 474.31444931030273,
+        "used": 404.09728622436523
+    },
+    "memory": {
+        "total": 31.72928237915039
+    }
+}
