@@ -1,0 +1,1 @@
+{"is_done": false, "epoch_id": 0, "step_wise/train/l": 25.467334747314453, "_timestamp": 1682409875.5415332, "step_wise/train/l_fit": 25.467334747314453, "step_wise/train/l_reg": 2.398898573119368e-07, "step_wise/train/l_reg_raw": 4.797797373612411e-06, "_runtime": 68.44898319244385, "_step": 0, "_wandb": {"runtime": 232}}
