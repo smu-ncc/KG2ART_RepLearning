@@ -1,0 +1,202 @@
+2023-03-30 14:20:12,335 INFO    StreamThr :23328 [internal.py:wandb_internal():87] W&B internal server running at pid: 23328, started at: 2023-03-30 14:20:12.334213
+2023-03-30 14:20:12,338 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: status
+2023-03-30 14:20:12,361 INFO    WriterThread:23328 [datastore.py:open_for_write():85] open: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\run-wbma35sz.wandb
+2023-03-30 14:20:12,363 DEBUG   SenderThread:23328 [sender.py:send():336] send: header
+2023-03-30 14:20:12,376 DEBUG   SenderThread:23328 [sender.py:send():336] send: run
+2023-03-30 14:20:13,099 INFO    SenderThread:23328 [dir_watcher.py:__init__():216] watching files in: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files
+2023-03-30 14:20:13,099 INFO    SenderThread:23328 [sender.py:_start_run_threads():1067] run started: wbma35sz with start time 1680157212.340081
+2023-03-30 14:20:13,099 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: summary_record
+2023-03-30 14:20:13,102 INFO    SenderThread:23328 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-30 14:20:13,123 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: check_version
+2023-03-30 14:20:13,123 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: check_version
+2023-03-30 14:20:13,196 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: run_start
+2023-03-30 14:20:13,216 DEBUG   HandlerThread:23328 [system_info.py:__init__():31] System info init
+2023-03-30 14:20:13,216 DEBUG   HandlerThread:23328 [system_info.py:__init__():46] System info init done
+2023-03-30 14:20:13,216 INFO    HandlerThread:23328 [system_monitor.py:start():151] Starting system monitor
+2023-03-30 14:20:13,217 INFO    SystemMonitor:23328 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-30 14:20:13,217 INFO    HandlerThread:23328 [system_monitor.py:probe():172] Collecting system info
+2023-03-30 14:20:13,227 INFO    SystemMonitor:23328 [interfaces.py:start():168] Started cpu
+2023-03-30 14:20:13,228 INFO    SystemMonitor:23328 [interfaces.py:start():168] Started disk
+2023-03-30 14:20:13,228 DEBUG   HandlerThread:23328 [system_info.py:probe():195] Probing system
+2023-03-30 14:20:13,229 INFO    SystemMonitor:23328 [interfaces.py:start():168] Started memory
+2023-03-30 14:20:13,241 INFO    SystemMonitor:23328 [interfaces.py:start():168] Started network
+2023-03-30 14:20:13,251 DEBUG   HandlerThread:23328 [git.py:repo():40] git repository is invalid
+2023-03-30 14:20:13,251 DEBUG   HandlerThread:23328 [system_info.py:probe():241] Probing system done
+2023-03-30 14:20:13,251 DEBUG   HandlerThread:23328 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.9.0', 'heartbeatAt': '2023-03-30T06:20:13.228661', 'startedAt': '2023-03-30T06:20:12.310971', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'shanthod0QG3L', 'username': 'shanthod', 'executable': 'C:\\Users\\shanthod\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1805.0, 'min': 0.0, 'max': 1805.0}, 'cpu_freq_per_core': [{'current': 1805.0, 'min': 0.0, 'max': 1805.0}], 'disk': {'total': 474.31444931030273, 'used': 402.19034576416016}, 'memory': {'total': 31.72928237915039}}
+2023-03-30 14:20:13,251 INFO    HandlerThread:23328 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-30 14:20:13,251 INFO    HandlerThread:23328 [system_monitor.py:probe():185] Publishing system info
+2023-03-30 14:20:13,251 DEBUG   HandlerThread:23328 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-30 14:20:13,260 DEBUG   HandlerThread:23328 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-30 14:20:13,267 INFO    HandlerThread:23328 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-30 14:20:13,312 DEBUG   SenderThread:23328 [sender.py:send():336] send: files
+2023-03-30 14:20:13,312 INFO    SenderThread:23328 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-30 14:20:13,348 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-30 14:20:13,348 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: stop_status
+2023-03-30 14:20:13,630 DEBUG   SenderThread:23328 [sender.py:send():336] send: telemetry
+2023-03-30 14:20:13,634 DEBUG   SenderThread:23328 [sender.py:send():336] send: config
+2023-03-30 14:20:13,635 DEBUG   SenderThread:23328 [sender.py:send():336] send: telemetry
+2023-03-30 14:20:13,635 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: summary_record
+2023-03-30 14:20:13,642 INFO    SenderThread:23328 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-30 14:20:13,643 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: summary_record
+2023-03-30 14:20:13,650 INFO    SenderThread:23328 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-30 14:20:13,760 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-30 14:20:13,760 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-30 14:20:13,761 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-30 14:20:13,761 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-30 14:20:14,110 INFO    wandb-upload_0:23328 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\AppData\Local\Temp\tmpj0_sq17qwandb\z0rg06fo-wandb-metadata.json
+2023-03-30 14:20:14,121 INFO    Thread-17 :23328 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\requirements.txt
+2023-03-30 14:20:14,122 INFO    Thread-17 :23328 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\wandb-metadata.json
+2023-03-30 14:20:14,123 INFO    Thread-17 :23328 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\wandb-summary.json
+2023-03-30 14:20:14,123 INFO    Thread-17 :23328 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\output.log
+2023-03-30 14:20:15,182 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: pause
+2023-03-30 14:20:15,183 INFO    HandlerThread:23328 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-30 14:20:15,183 INFO    HandlerThread:23328 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-30 14:20:15,183 DEBUG   SystemMonitor:23328 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-30 14:20:15,183 DEBUG   SystemMonitor:23328 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-30 14:20:15,184 DEBUG   SystemMonitor:23328 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-30 14:20:15,184 INFO    HandlerThread:23328 [interfaces.py:finish():175] Joined cpu
+2023-03-30 14:20:15,185 INFO    HandlerThread:23328 [interfaces.py:finish():175] Joined disk
+2023-03-30 14:20:15,185 INFO    HandlerThread:23328 [interfaces.py:finish():175] Joined memory
+2023-03-30 14:20:15,185 INFO    HandlerThread:23328 [interfaces.py:finish():175] Joined network
+2023-03-30 14:20:15,186 DEBUG   SenderThread:23328 [sender.py:send():336] send: stats
+2023-03-30 14:20:16,139 INFO    Thread-17 :23328 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\output.log
+2023-03-30 14:20:18,219 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 14:20:23,269 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 14:20:28,320 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 14:20:28,351 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 14:20:33,369 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 14:20:33,400 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 14:20:34,319 INFO    Thread-17 :23328 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\output.log
+2023-03-30 14:20:38,425 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 14:20:38,455 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 14:20:43,488 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 14:20:43,517 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 14:20:44,433 INFO    Thread-17 :23328 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\config.yaml
+2023-03-30 14:20:48,569 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 14:20:48,805 DEBUG   SenderThread:23328 [sender.py:send():336] send: exit
+2023-03-30 14:20:48,806 INFO    SenderThread:23328 [sender.py:send_exit():559] handling exit code: 0
+2023-03-30 14:20:48,806 INFO    SenderThread:23328 [sender.py:send_exit():561] handling runtime: 1
+2023-03-30 14:20:48,812 INFO    SenderThread:23328 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-30 14:20:48,812 INFO    SenderThread:23328 [sender.py:send_exit():567] send defer
+2023-03-30 14:20:48,813 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:48,813 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-30 14:20:48,813 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:48,813 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-30 14:20:48,813 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 1
+2023-03-30 14:20:48,813 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:48,814 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-30 14:20:48,814 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:48,814 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-30 14:20:48,814 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 2
+2023-03-30 14:20:48,815 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:48,815 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-30 14:20:48,815 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:48,815 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-30 14:20:48,816 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 3
+2023-03-30 14:20:48,816 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:48,816 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-30 14:20:48,817 DEBUG   SenderThread:23328 [sender.py:send():336] send: history
+2023-03-30 14:20:48,817 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: summary_record
+2023-03-30 14:20:48,824 INFO    SenderThread:23328 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-30 14:20:48,825 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:48,825 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-30 14:20:48,825 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 4
+2023-03-30 14:20:48,825 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:48,825 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-30 14:20:48,825 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:48,825 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-30 14:20:48,825 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 5
+2023-03-30 14:20:48,826 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:48,826 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-30 14:20:48,826 DEBUG   SenderThread:23328 [sender.py:send():336] send: summary
+2023-03-30 14:20:48,833 INFO    SenderThread:23328 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-30 14:20:48,833 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:48,834 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-30 14:20:48,834 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 6
+2023-03-30 14:20:48,834 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:48,834 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-30 14:20:48,835 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:48,835 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-30 14:20:48,835 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 7
+2023-03-30 14:20:48,835 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 14:20:48,835 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:48,835 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-30 14:20:48,836 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:48,836 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-30 14:20:49,489 INFO    Thread-17 :23328 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\wandb-summary.json
+2023-03-30 14:20:49,831 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-30 14:20:50,084 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 8
+2023-03-30 14:20:50,084 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: poll_exit
+2023-03-30 14:20:50,084 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:50,084 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-30 14:20:50,084 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:50,084 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-30 14:20:50,086 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 9
+2023-03-30 14:20:50,087 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:50,087 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-30 14:20:50,087 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:50,087 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-30 14:20:50,087 INFO    SenderThread:23328 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-30 14:20:50,502 INFO    SenderThread:23328 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\output.log
+2023-03-30 14:20:50,502 INFO    SenderThread:23328 [dir_watcher.py:finish():392] scan: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files
+2023-03-30 14:20:50,503 INFO    SenderThread:23328 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\config.yaml config.yaml
+2023-03-30 14:20:50,503 INFO    SenderThread:23328 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\output.log output.log
+2023-03-30 14:20:50,506 INFO    SenderThread:23328 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\requirements.txt requirements.txt
+2023-03-30 14:20:50,510 INFO    SenderThread:23328 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\wandb-metadata.json wandb-metadata.json
+2023-03-30 14:20:50,510 INFO    SenderThread:23328 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\wandb-summary.json wandb-summary.json
+2023-03-30 14:20:50,514 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 10
+2023-03-30 14:20:50,514 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:50,514 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-30 14:20:50,516 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:50,519 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-30 14:20:50,519 INFO    SenderThread:23328 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-30 14:20:50,839 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-30 14:20:50,840 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: poll_exit
+2023-03-30 14:20:51,856 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-30 14:20:51,856 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: poll_exit
+2023-03-30 14:20:52,048 INFO    wandb-upload_3:23328 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\wandb-summary.json
+2023-03-30 14:20:52,048 INFO    wandb-upload_2:23328 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\requirements.txt
+2023-03-30 14:20:52,061 INFO    wandb-upload_1:23328 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\output.log
+2023-03-30 14:20:52,092 INFO    wandb-upload_0:23328 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\files\config.yaml
+2023-03-30 14:20:52,295 INFO    Thread-16 :23328 [sender.py:transition_state():587] send defer: 11
+2023-03-30 14:20:52,296 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:52,296 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-30 14:20:52,297 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:52,297 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-30 14:20:52,297 INFO    SenderThread:23328 [file_pusher.py:join():167] waiting for file pusher
+2023-03-30 14:20:52,297 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 12
+2023-03-30 14:20:52,297 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:52,298 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-30 14:20:52,298 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:52,298 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-30 14:20:52,564 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 13
+2023-03-30 14:20:52,564 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:52,564 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-30 14:20:52,564 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:52,564 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-30 14:20:52,564 INFO    SenderThread:23328 [sender.py:transition_state():587] send defer: 14
+2023-03-30 14:20:52,565 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 14:20:52,565 DEBUG   SenderThread:23328 [sender.py:send():336] send: final
+2023-03-30 14:20:52,566 INFO    HandlerThread:23328 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-30 14:20:52,566 DEBUG   SenderThread:23328 [sender.py:send():336] send: footer
+2023-03-30 14:20:52,566 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: defer
+2023-03-30 14:20:52,566 INFO    SenderThread:23328 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-30 14:20:52,567 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-30 14:20:52,568 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: poll_exit
+2023-03-30 14:20:52,568 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-30 14:20:52,569 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: server_info
+2023-03-30 14:20:52,569 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-30 14:20:52,569 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: poll_exit
+2023-03-30 14:20:52,569 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-30 14:20:52,570 DEBUG   SenderThread:23328 [sender.py:send_request():363] send_request: server_info
+2023-03-30 14:20:53,115 INFO    MainThread:23328 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-03-30 14:20:53,116 INFO    MainThread:23328 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-03-30 14:20:53,128 INFO    MainThread:23328 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-03-30 14:20:53,134 DEBUG   HandlerThread:23328 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-30 14:20:53,135 INFO    HandlerThread:23328 [handler.py:finish():841] shutting down handler
+2023-03-30 14:20:53,583 INFO    WriterThread:23328 [datastore.py:close():299] close: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_142012-wbma35sz\run-wbma35sz.wandb
+2023-03-30 14:20:53,783 WARNING StreamThr :23328 [internal.py:is_dead():415] Internal process exiting, parent pid 24624 disappeared
+2023-03-30 14:20:53,783 ERROR   StreamThr :23328 [internal.py:wandb_internal():153] Internal process shutdown.
+2023-03-30 14:20:54,129 INFO    SenderThread:23328 [sender.py:finish():1493] shutting down sender
+2023-03-30 14:20:54,129 INFO    SenderThread:23328 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-30 14:20:54,130 INFO    SenderThread:23328 [file_pusher.py:join():167] waiting for file pusher

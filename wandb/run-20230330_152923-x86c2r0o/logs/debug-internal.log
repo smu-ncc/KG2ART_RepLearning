@@ -1,0 +1,276 @@
+2023-03-30 15:29:23,731 INFO    StreamThr :31840 [internal.py:wandb_internal():87] W&B internal server running at pid: 31840, started at: 2023-03-30 15:29:23.729352
+2023-03-30 15:29:23,733 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status
+2023-03-30 15:29:23,757 INFO    WriterThread:31840 [datastore.py:open_for_write():85] open: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\run-x86c2r0o.wandb
+2023-03-30 15:29:23,760 DEBUG   SenderThread:31840 [sender.py:send():336] send: header
+2023-03-30 15:29:23,773 DEBUG   SenderThread:31840 [sender.py:send():336] send: run
+2023-03-30 15:29:24,466 INFO    SenderThread:31840 [dir_watcher.py:__init__():216] watching files in: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files
+2023-03-30 15:29:24,466 INFO    SenderThread:31840 [sender.py:_start_run_threads():1067] run started: x86c2r0o with start time 1680161363.735607
+2023-03-30 15:29:24,466 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: summary_record
+2023-03-30 15:29:24,470 INFO    SenderThread:31840 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-30 15:29:24,472 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: check_version
+2023-03-30 15:29:24,472 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: check_version
+2023-03-30 15:29:24,567 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: run_start
+2023-03-30 15:29:24,587 DEBUG   HandlerThread:31840 [system_info.py:__init__():31] System info init
+2023-03-30 15:29:24,587 DEBUG   HandlerThread:31840 [system_info.py:__init__():46] System info init done
+2023-03-30 15:29:24,587 INFO    HandlerThread:31840 [system_monitor.py:start():151] Starting system monitor
+2023-03-30 15:29:24,588 INFO    SystemMonitor:31840 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-30 15:29:24,588 INFO    HandlerThread:31840 [system_monitor.py:probe():172] Collecting system info
+2023-03-30 15:29:24,599 INFO    SystemMonitor:31840 [interfaces.py:start():168] Started cpu
+2023-03-30 15:29:24,599 INFO    SystemMonitor:31840 [interfaces.py:start():168] Started disk
+2023-03-30 15:29:24,600 DEBUG   HandlerThread:31840 [system_info.py:probe():195] Probing system
+2023-03-30 15:29:24,601 INFO    SystemMonitor:31840 [interfaces.py:start():168] Started memory
+2023-03-30 15:29:24,613 INFO    SystemMonitor:31840 [interfaces.py:start():168] Started network
+2023-03-30 15:29:24,626 DEBUG   HandlerThread:31840 [git.py:repo():40] git repository is invalid
+2023-03-30 15:29:24,626 DEBUG   HandlerThread:31840 [system_info.py:probe():241] Probing system done
+2023-03-30 15:29:24,626 DEBUG   HandlerThread:31840 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.9.0', 'heartbeatAt': '2023-03-30T07:29:24.600749', 'startedAt': '2023-03-30T07:29:23.705016', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'shanthod0QG3L', 'username': 'shanthod', 'executable': 'C:\\Users\\shanthod\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1805.0, 'min': 0.0, 'max': 1805.0}, 'cpu_freq_per_core': [{'current': 1805.0, 'min': 0.0, 'max': 1805.0}], 'disk': {'total': 474.31444931030273, 'used': 402.22269439697266}, 'memory': {'total': 31.72928237915039}}
+2023-03-30 15:29:24,626 INFO    HandlerThread:31840 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-30 15:29:24,626 INFO    HandlerThread:31840 [system_monitor.py:probe():185] Publishing system info
+2023-03-30 15:29:24,626 DEBUG   HandlerThread:31840 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-30 15:29:24,634 DEBUG   HandlerThread:31840 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-30 15:29:24,643 INFO    HandlerThread:31840 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-30 15:29:24,685 DEBUG   SenderThread:31840 [sender.py:send():336] send: files
+2023-03-30 15:29:24,685 INFO    SenderThread:31840 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-30 15:29:24,718 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-30 15:29:24,719 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: stop_status
+2023-03-30 15:29:24,999 DEBUG   SenderThread:31840 [sender.py:send():336] send: telemetry
+2023-03-30 15:29:25,003 DEBUG   SenderThread:31840 [sender.py:send():336] send: config
+2023-03-30 15:29:25,003 DEBUG   SenderThread:31840 [sender.py:send():336] send: telemetry
+2023-03-30 15:29:25,003 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: summary_record
+2023-03-30 15:29:25,010 INFO    SenderThread:31840 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-30 15:29:25,012 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: summary_record
+2023-03-30 15:29:25,018 INFO    SenderThread:31840 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-30 15:29:25,149 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-30 15:29:25,149 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-30 15:29:25,150 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-30 15:29:25,150 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-30 15:29:25,478 INFO    Thread-17 :31840 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\wandb-metadata.json
+2023-03-30 15:29:25,479 INFO    Thread-17 :31840 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\wandb-summary.json
+2023-03-30 15:29:25,481 INFO    Thread-17 :31840 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\requirements.txt
+2023-03-30 15:29:25,481 INFO    Thread-17 :31840 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\output.log
+2023-03-30 15:29:26,249 INFO    wandb-upload_0:31840 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\AppData\Local\Temp\tmp7ga3wnalwandb\bdvdq7bi-wandb-metadata.json
+2023-03-30 15:29:26,687 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: pause
+2023-03-30 15:29:26,687 INFO    HandlerThread:31840 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-30 15:29:26,687 INFO    HandlerThread:31840 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-30 15:29:26,688 DEBUG   SystemMonitor:31840 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-30 15:29:26,689 DEBUG   SystemMonitor:31840 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-30 15:29:26,689 DEBUG   SystemMonitor:31840 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-30 15:29:26,690 INFO    HandlerThread:31840 [interfaces.py:finish():175] Joined cpu
+2023-03-30 15:29:26,690 INFO    HandlerThread:31840 [interfaces.py:finish():175] Joined disk
+2023-03-30 15:29:26,691 INFO    HandlerThread:31840 [interfaces.py:finish():175] Joined memory
+2023-03-30 15:29:26,691 INFO    HandlerThread:31840 [interfaces.py:finish():175] Joined network
+2023-03-30 15:29:26,692 DEBUG   SenderThread:31840 [sender.py:send():336] send: stats
+2023-03-30 15:29:27,495 INFO    Thread-17 :31840 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\output.log
+2023-03-30 15:29:29,722 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:29:34,781 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:29:39,730 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:29:39,730 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:29:39,823 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:29:44,776 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:29:45,680 INFO    Thread-17 :31840 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\output.log
+2023-03-30 15:29:45,757 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:29:49,834 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:29:50,816 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:29:54,884 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:29:55,866 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:29:56,798 INFO    Thread-17 :31840 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\config.yaml
+2023-03-30 15:29:59,938 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:30:01,231 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:30:04,995 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:30:06,290 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:30:10,048 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:30:11,343 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:30:15,105 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:30:16,395 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:30:20,148 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:30:21,442 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:30:25,209 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:30:26,497 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:30:30,251 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:30:31,558 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:30:35,312 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:30:36,623 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:30:40,372 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:30:41,679 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:30:45,431 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:30:46,741 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:30:50,486 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:30:51,794 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:30:55,543 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:30:56,849 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:31:00,606 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:31:01,914 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:31:05,665 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:31:06,971 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:31:10,718 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:31:12,028 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:31:15,770 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:31:17,080 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:31:20,830 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:31:22,142 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:31:25,851 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:31:27,187 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:31:30,955 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:31:32,249 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:31:36,014 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:31:37,305 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:31:41,076 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:31:42,363 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:31:46,136 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:31:47,424 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:31:51,191 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:31:52,479 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:31:56,241 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:31:57,534 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:32:01,289 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:32:02,599 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:32:06,353 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:32:07,659 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:32:11,410 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:32:12,716 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:32:16,467 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:32:17,776 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:32:21,534 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:32:22,843 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:32:26,599 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:32:27,906 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:32:31,665 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:32:32,973 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:32:36,723 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:32:38,031 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:32:41,772 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:32:43,096 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:32:46,826 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:32:48,150 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:32:51,882 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:32:53,205 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:32:56,930 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:32:58,268 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:33:01,992 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-30 15:33:03,328 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:33:04,752 DEBUG   SenderThread:31840 [sender.py:send():336] send: exit
+2023-03-30 15:33:04,752 INFO    SenderThread:31840 [sender.py:send_exit():559] handling exit code: 0
+2023-03-30 15:33:04,752 INFO    SenderThread:31840 [sender.py:send_exit():561] handling runtime: 2
+2023-03-30 15:33:04,758 INFO    SenderThread:31840 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-30 15:33:04,759 INFO    SenderThread:31840 [sender.py:send_exit():567] send defer
+2023-03-30 15:33:04,759 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:04,759 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-30 15:33:04,759 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:04,759 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-30 15:33:04,759 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 1
+2023-03-30 15:33:04,759 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:04,761 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-30 15:33:04,761 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:04,761 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-30 15:33:04,761 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 2
+2023-03-30 15:33:04,762 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:04,762 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-30 15:33:04,762 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:04,762 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-30 15:33:04,762 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 3
+2023-03-30 15:33:04,762 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:04,762 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-30 15:33:04,765 DEBUG   SenderThread:31840 [sender.py:send():336] send: history
+2023-03-30 15:33:04,765 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: summary_record
+2023-03-30 15:33:04,771 INFO    SenderThread:31840 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-30 15:33:04,771 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:04,772 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-30 15:33:04,772 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 4
+2023-03-30 15:33:04,772 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:04,772 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-30 15:33:04,772 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:04,773 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-30 15:33:04,773 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 5
+2023-03-30 15:33:04,773 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:04,773 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-30 15:33:04,774 DEBUG   SenderThread:31840 [sender.py:send():336] send: summary
+2023-03-30 15:33:04,779 INFO    SenderThread:31840 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-30 15:33:04,779 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:04,781 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-30 15:33:04,781 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 6
+2023-03-30 15:33:04,781 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:04,781 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-30 15:33:04,781 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:04,781 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-30 15:33:04,782 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 7
+2023-03-30 15:33:04,782 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-30 15:33:04,782 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:04,782 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-30 15:33:04,782 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:04,783 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-30 15:33:04,996 INFO    Thread-17 :31840 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\wandb-summary.json
+2023-03-30 15:33:05,775 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-30 15:33:06,369 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 8
+2023-03-30 15:33:06,369 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: poll_exit
+2023-03-30 15:33:06,369 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:06,370 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-30 15:33:06,370 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:06,371 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-30 15:33:06,373 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 9
+2023-03-30 15:33:06,373 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:06,373 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-30 15:33:06,373 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:06,373 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-30 15:33:06,374 INFO    SenderThread:31840 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-30 15:33:06,785 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-30 15:33:07,022 INFO    SenderThread:31840 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\output.log
+2023-03-30 15:33:07,022 INFO    SenderThread:31840 [dir_watcher.py:finish():392] scan: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files
+2023-03-30 15:33:07,023 INFO    SenderThread:31840 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\config.yaml config.yaml
+2023-03-30 15:33:07,024 INFO    SenderThread:31840 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\output.log output.log
+2023-03-30 15:33:07,030 INFO    SenderThread:31840 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\requirements.txt requirements.txt
+2023-03-30 15:33:07,036 INFO    SenderThread:31840 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\wandb-metadata.json wandb-metadata.json
+2023-03-30 15:33:07,036 INFO    SenderThread:31840 [dir_watcher.py:finish():406] scan save: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\wandb-summary.json wandb-summary.json
+2023-03-30 15:33:07,041 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 10
+2023-03-30 15:33:07,041 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: poll_exit
+2023-03-30 15:33:07,042 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:07,042 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-30 15:33:07,047 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:07,048 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-30 15:33:07,048 INFO    SenderThread:31840 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-30 15:33:07,802 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-30 15:33:07,802 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: poll_exit
+2023-03-30 15:33:07,835 INFO    wandb-upload_3:31840 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\wandb-summary.json
+2023-03-30 15:33:07,981 INFO    wandb-upload_2:31840 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\requirements.txt
+2023-03-30 15:33:08,102 INFO    wandb-upload_1:31840 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\output.log
+2023-03-30 15:33:08,550 INFO    wandb-upload_0:31840 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\files\config.yaml
+2023-03-30 15:33:08,753 INFO    Thread-16 :31840 [sender.py:transition_state():587] send defer: 11
+2023-03-30 15:33:08,754 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:08,754 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-30 15:33:08,754 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:08,754 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-30 15:33:08,754 INFO    SenderThread:31840 [file_pusher.py:join():167] waiting for file pusher
+2023-03-30 15:33:08,755 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 12
+2023-03-30 15:33:08,755 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:08,756 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-30 15:33:08,757 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:08,757 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-30 15:33:08,816 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-30 15:33:09,565 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 13
+2023-03-30 15:33:09,566 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: poll_exit
+2023-03-30 15:33:09,566 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:09,566 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-30 15:33:09,567 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:09,567 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-30 15:33:09,567 INFO    SenderThread:31840 [sender.py:transition_state():587] send defer: 14
+2023-03-30 15:33:09,567 DEBUG   SenderThread:31840 [sender.py:send():336] send: final
+2023-03-30 15:33:09,567 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: defer
+2023-03-30 15:33:09,567 DEBUG   SenderThread:31840 [sender.py:send():336] send: footer
+2023-03-30 15:33:09,567 INFO    HandlerThread:31840 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-30 15:33:09,568 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: defer
+2023-03-30 15:33:09,568 INFO    SenderThread:31840 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-30 15:33:09,569 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-30 15:33:09,570 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: poll_exit
+2023-03-30 15:33:09,570 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-30 15:33:09,570 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: server_info
+2023-03-30 15:33:09,571 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-30 15:33:09,571 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: poll_exit
+2023-03-30 15:33:09,572 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-30 15:33:09,572 DEBUG   SenderThread:31840 [sender.py:send_request():363] send_request: server_info
+2023-03-30 15:33:10,142 INFO    MainThread:31840 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-03-30 15:33:10,142 INFO    MainThread:31840 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-03-30 15:33:10,162 INFO    MainThread:31840 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-03-30 15:33:10,166 DEBUG   HandlerThread:31840 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-30 15:33:10,166 INFO    HandlerThread:31840 [handler.py:finish():841] shutting down handler
+2023-03-30 15:33:10,586 INFO    WriterThread:31840 [datastore.py:close():299] close: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230330_152923-x86c2r0o\run-x86c2r0o.wandb
+2023-03-30 15:33:11,144 INFO    SenderThread:31840 [sender.py:finish():1493] shutting down sender
+2023-03-30 15:33:11,144 INFO    SenderThread:31840 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-30 15:33:11,144 INFO    SenderThread:31840 [file_pusher.py:join():167] waiting for file pusher
