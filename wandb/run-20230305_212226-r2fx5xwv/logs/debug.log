@@ -1,0 +1,17 @@
+2023-03-05 21:22:26,400 INFO    MainThread:36512 [wandb_setup.py:_flush():68] Configure stats pid to 36512
+2023-03-05 21:22:26,400 INFO    MainThread:36512 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\.config\wandb\settings
+2023-03-05 21:22:26,400 INFO    MainThread:36512 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\settings
+2023-03-05 21:22:26,400 WARNING MainThread:36512 [wandb_setup.py:_flush():68] Unknown environment variable: WANDB_SERVICE
+2023-03-05 21:22:26,400 INFO    MainThread:36512 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-03-05 21:22:26,401 INFO    MainThread:36512 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'C:\\Users\\shanthod\\Downloads\\ssl-relation-prediction-main\\ssl-relation-prediction-main\\src\\main.py'}
+2023-03-05 21:22:26,401 INFO    MainThread:36512 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212226-r2fx5xwv\logs\debug.log
+2023-03-05 21:22:26,402 INFO    MainThread:36512 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212226-r2fx5xwv\logs\debug-internal.log
+2023-03-05 21:22:26,402 INFO    MainThread:36512 [wandb_init.py:init():532] calling init triggers
+2023-03-05 21:22:26,403 INFO    MainThread:36512 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {}
+2023-03-05 21:22:26,403 INFO    MainThread:36512 [wandb_init.py:init():588] starting backend
+2023-03-05 21:22:26,403 INFO    MainThread:36512 [wandb_init.py:init():592] setting up manager
+2023-03-05 21:22:26,412 INFO    MainThread:36512 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-05 21:22:26,426 INFO    MainThread:36512 [wandb_init.py:init():599] backend started and connected
+2023-03-05 21:22:26,429 INFO    MainThread:36512 [wandb_init.py:init():687] updated telemetry
+2023-03-05 21:22:26,442 INFO    MainThread:36512 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout

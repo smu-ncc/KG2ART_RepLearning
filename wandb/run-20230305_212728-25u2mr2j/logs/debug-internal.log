@@ -1,0 +1,331 @@
+2023-03-05 21:27:28,871 INFO    StreamThr :34556 [internal.py:wandb_internal():87] W&B internal server running at pid: 34556, started at: 2023-03-05 21:27:28.868662
+2023-03-05 21:27:28,874 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status
+2023-03-05 21:27:28,881 INFO    WriterThread:34556 [datastore.py:open_for_write():85] open: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\run-25u2mr2j.wandb
+2023-03-05 21:27:28,886 DEBUG   SenderThread:34556 [sender.py:send():336] send: header
+2023-03-05 21:27:28,898 DEBUG   SenderThread:34556 [sender.py:send():336] send: run
+2023-03-05 21:27:29,672 INFO    SenderThread:34556 [dir_watcher.py:__init__():216] watching files in: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files
+2023-03-05 21:27:29,673 INFO    SenderThread:34556 [sender.py:_start_run_threads():1067] run started: 25u2mr2j with start time 1678022848.877125
+2023-03-05 21:27:29,673 DEBUG   SenderThread:34556 [sender.py:send_request():363] send_request: summary_record
+2023-03-05 21:27:29,676 INFO    SenderThread:34556 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-05 21:27:29,680 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: check_version
+2023-03-05 21:27:29,680 DEBUG   SenderThread:34556 [sender.py:send_request():363] send_request: check_version
+2023-03-05 21:27:29,823 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: run_start
+2023-03-05 21:27:29,855 DEBUG   HandlerThread:34556 [system_info.py:__init__():31] System info init
+2023-03-05 21:27:29,855 DEBUG   HandlerThread:34556 [system_info.py:__init__():46] System info init done
+2023-03-05 21:27:29,856 INFO    HandlerThread:34556 [system_monitor.py:start():151] Starting system monitor
+2023-03-05 21:27:29,857 INFO    SystemMonitor:34556 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-05 21:27:29,857 INFO    HandlerThread:34556 [system_monitor.py:probe():172] Collecting system info
+2023-03-05 21:27:29,873 INFO    SystemMonitor:34556 [interfaces.py:start():168] Started cpu
+2023-03-05 21:27:29,874 DEBUG   HandlerThread:34556 [system_info.py:probe():195] Probing system
+2023-03-05 21:27:29,875 INFO    SystemMonitor:34556 [interfaces.py:start():168] Started disk
+2023-03-05 21:27:29,875 INFO    SystemMonitor:34556 [interfaces.py:start():168] Started memory
+2023-03-05 21:27:29,891 INFO    SystemMonitor:34556 [interfaces.py:start():168] Started network
+2023-03-05 21:27:29,908 DEBUG   HandlerThread:34556 [git.py:repo():40] git repository is invalid
+2023-03-05 21:27:29,908 DEBUG   HandlerThread:34556 [system_info.py:probe():241] Probing system done
+2023-03-05 21:27:29,908 DEBUG   HandlerThread:34556 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.9.0', 'heartbeatAt': '2023-03-05T13:27:29.875170', 'startedAt': '2023-03-05T13:27:28.840039', 'docker': None, 'cuda': None, 'args': ('--dataset', 'FB15K-237', '--score_rel', 'True', '--model', 'ComplEx', '--rank', '1000', '--learning_rate', '0.1', '--batch_size', '1000', '--lmbda', '0.05', '--w_rel', '4', '--max_epochs', '100'), 'state': 'running', 'program': 'C:\\Users\\shanthod\\Downloads\\ssl-relation-prediction-main\\ssl-relation-prediction-main\\src\\main.py', 'codePath': 'main.py', 'host': 'shanthod0QG3L', 'username': 'shanthod', 'executable': 'C:\\Users\\shanthod\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1805.0, 'min': 0.0, 'max': 1805.0}, 'cpu_freq_per_core': [{'current': 1805.0, 'min': 0.0, 'max': 1805.0}], 'disk': {'total': 474.31444931030273, 'used': 376.5380554199219}, 'memory': {'total': 31.72928237915039}}
+2023-03-05 21:27:29,908 INFO    HandlerThread:34556 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-05 21:27:29,908 INFO    HandlerThread:34556 [system_monitor.py:probe():185] Publishing system info
+2023-03-05 21:27:29,908 DEBUG   HandlerThread:34556 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-05 21:27:29,920 DEBUG   HandlerThread:34556 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-05 21:27:29,931 INFO    HandlerThread:34556 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-05 21:27:30,020 DEBUG   SenderThread:34556 [sender.py:send():336] send: files
+2023-03-05 21:27:30,021 INFO    SenderThread:34556 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-05 21:27:30,045 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-05 21:27:30,046 DEBUG   SenderThread:34556 [sender.py:send_request():363] send_request: stop_status
+2023-03-05 21:27:30,362 DEBUG   SenderThread:34556 [sender.py:send():336] send: telemetry
+2023-03-05 21:27:30,367 DEBUG   SenderThread:34556 [sender.py:send():336] send: config
+2023-03-05 21:27:30,368 DEBUG   SenderThread:34556 [sender.py:send():336] send: telemetry
+2023-03-05 21:27:30,369 DEBUG   SenderThread:34556 [sender.py:send_request():363] send_request: summary_record
+2023-03-05 21:27:30,375 INFO    SenderThread:34556 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-05 21:27:30,377 DEBUG   SenderThread:34556 [sender.py:send_request():363] send_request: summary_record
+2023-03-05 21:27:30,385 INFO    SenderThread:34556 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-05 21:27:30,681 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\wandb-metadata.json
+2023-03-05 21:27:30,682 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\wandb-summary.json
+2023-03-05 21:27:30,683 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\requirements.txt
+2023-03-05 21:27:30,683 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:27:30,855 INFO    wandb-upload_0:34556 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\AppData\Local\Temp\tmp46yl270owandb\n4iyly9e-wandb-metadata.json
+2023-03-05 21:27:32,691 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:27:33,768 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-05 21:27:33,769 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-05 21:27:33,769 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-05 21:27:33,770 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-05 21:27:34,600 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:27:34,723 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:27:36,739 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:27:38,747 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:27:40,237 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:27:40,769 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:27:42,782 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:27:45,050 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:27:45,959 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:27:46,818 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:27:50,102 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:27:50,864 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:27:51,788 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:27:54,906 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:27:55,137 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:27:56,924 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:27:57,104 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:27:58,947 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:00,249 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:28:00,973 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:02,789 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:28:02,983 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:03,999 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\config.yaml
+2023-03-05 21:28:05,297 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:28:07,088 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:08,526 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:28:10,361 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:28:13,161 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:13,558 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:28:15,400 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:28:17,218 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:18,623 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:28:20,448 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:28:21,284 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:24,079 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:28:25,337 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:25,497 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:28:29,103 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:28:29,408 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:29,906 DEBUG   SystemMonitor:34556 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-05 21:28:29,908 DEBUG   SenderThread:34556 [sender.py:send():336] send: stats
+2023-03-05 21:28:30,544 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:28:33,489 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:34,777 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:28:35,601 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:28:37,554 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:39,593 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:40,403 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:28:40,685 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:28:41,675 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:43,718 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:45,759 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:28:45,762 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:46,348 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:28:47,778 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:49,798 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:50,773 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:28:51,566 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:28:51,815 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:55,811 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:28:55,845 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:57,054 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:28:59,888 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:28:59,919 DEBUG   SenderThread:34556 [sender.py:send():336] send: stats
+2023-03-05 21:29:00,868 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:29:02,939 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:29:03,924 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:05,909 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:29:07,970 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:08,075 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:29:10,963 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:29:11,015 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:12,044 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:13,221 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:29:15,070 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:16,028 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:29:19,101 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:29:19,103 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:21,060 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:29:23,149 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:24,199 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:29:26,114 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:29:27,196 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:29,279 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:29:29,925 DEBUG   SenderThread:34556 [sender.py:send():336] send: stats
+2023-03-05 21:29:31,156 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:29:31,253 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:34,763 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:29:35,291 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:36,186 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:29:37,305 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:39,313 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:40,427 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:29:41,224 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:29:41,335 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:45,363 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:45,812 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:29:46,251 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:29:47,396 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:49,417 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:51,304 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:29:51,442 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:51,812 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:29:53,458 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:55,482 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:56,364 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:29:56,935 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:29:57,500 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:59,523 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:29:59,938 DEBUG   SenderThread:34556 [sender.py:send():336] send: stats
+2023-03-05 21:30:01,421 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:30:01,547 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:02,854 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:30:05,597 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:06,480 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:30:07,619 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:08,415 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:30:11,553 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:30:11,725 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:13,581 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:30:15,827 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:16,606 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:30:19,556 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:30:19,954 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:21,659 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:30:24,053 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:24,943 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:30:26,697 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:30:28,183 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:29,946 DEBUG   SenderThread:34556 [sender.py:send():336] send: stats
+2023-03-05 21:30:29,948 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:30:30,220 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:31,749 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:30:34,314 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:35,770 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:30:36,807 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:30:38,455 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:39,471 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:41,010 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:30:41,499 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:41,854 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:30:45,608 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:46,084 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:30:46,890 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:30:49,688 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:51,932 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:30:51,978 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:30:53,863 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:56,996 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:30:57,964 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:30:57,964 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:30:59,953 DEBUG   SenderThread:34556 [sender.py:send():336] send: stats
+2023-03-05 21:31:02,038 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:02,069 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:03,852 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:31:06,139 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:07,100 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:09,737 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:31:10,205 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:12,148 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:14,293 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:15,066 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:31:17,191 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:18,409 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:20,480 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:20,605 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:31:22,233 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:22,542 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:24,583 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:26,125 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:31:26,633 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:27,287 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:27,663 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:29,968 DEBUG   SenderThread:34556 [sender.py:send():336] send: stats
+2023-03-05 21:31:31,722 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:32,073 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:31:32,322 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:32,323 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:32,727 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:35,811 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:37,368 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:37,384 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:31:39,930 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:42,425 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:42,607 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:31:44,039 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:47,469 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:47,916 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:31:48,126 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:50,157 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:52,181 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:52,533 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:53,451 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:31:54,229 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:57,580 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:31:58,368 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:31:58,702 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:32:00,008 DEBUG   SenderThread:34556 [sender.py:send():336] send: stats
+2023-03-05 21:32:00,485 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:02,657 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:32:04,089 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:32:07,730 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:32:08,671 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:09,626 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:32:12,825 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:32:14,697 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:32:14,867 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:17,961 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:32:18,062 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:20,349 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:32:23,029 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:32:25,216 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:26,061 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:32:26,239 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:28,114 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:32:30,021 DEBUG   SenderThread:34556 [sender.py:send():336] send: stats
+2023-03-05 21:32:31,318 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:31,541 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:32:32,346 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:33,198 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:32:37,459 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:32:38,371 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:32:38,521 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:40,617 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:43,042 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:32:43,407 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:32:44,679 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:46,707 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:48,432 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:32:48,669 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:32:48,743 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:50,779 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:53,571 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:32:54,682 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:32:54,866 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:32:58,642 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:32:59,769 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:33:00,081 DEBUG   SenderThread:34556 [sender.py:send():336] send: stats
+2023-03-05 21:33:01,499 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:03,703 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:33:04,644 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:05,217 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:33:08,833 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:33:10,299 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:33:11,014 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:13,892 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:33:15,065 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:16,291 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:33:18,929 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:33:19,122 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:21,989 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:33:23,159 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:23,984 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:33:27,215 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:27,990 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:33:29,022 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:33:30,083 DEBUG   SenderThread:34556 [sender.py:send():336] send: stats
+2023-03-05 21:33:31,277 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:33,517 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:33:34,060 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:33:35,334 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:37,371 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:38,866 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:33:39,109 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:33:39,404 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:41,450 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:44,174 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:33:44,773 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:33:45,519 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:47,539 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:49,212 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:33:49,565 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:50,096 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:33:51,578 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:53,609 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:54,253 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 21:33:55,366 DEBUG   HandlerThread:34556 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 21:33:55,632 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:57,664 INFO    Thread-18 :34556 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230305_212728-25u2mr2j\files\output.log
+2023-03-05 21:33:58,564 INFO    MainThread:34556 [internal.py:handle_exit():77] Internal process exited

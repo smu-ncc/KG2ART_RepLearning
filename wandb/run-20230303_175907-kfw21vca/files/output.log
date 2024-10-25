@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\main.py", line 135, in <module>
+    engine = KBCEngine(engine_opt)
+  File "C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\engines.py", line 115, in __init__
+    print('Git commit ID: {}'.format(get_git_revision_hash()))
+  File "C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\utils.py", line 38, in get_git_revision_hash
+    return subprocess.check_output(['git', 'rev-parse', 'HEAD'])
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'rev-parse', 'HEAD']' returned non-zero exit status 128.

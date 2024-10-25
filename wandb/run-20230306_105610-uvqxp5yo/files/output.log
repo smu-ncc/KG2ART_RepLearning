@@ -1,0 +1,1098 @@
+2
+gtttt
+Creating a sampler of size 3184
+----2----
+ 63%|████████████████████████████████████████████████▎                            | 2000/3184 [00:02<00:01, 977.69it/s]
+----2----
+
+
+5000it [00:06, 837.21it/s]
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  0
+	 TRAIN: {'MRR': 0.7985555231571198, 'hits@[1,3,10]': [0.6924999952316284, 0.8795000314712524, 0.996999979019165]}
+	 VALID: {'MRR': 0.6027539372444153, 'hits@[1,3,10]': [0.4195979833602905, 0.7286431789398193, 0.9849246144294739]}
+5000it [00:10, 474.96it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+----2----
+ 63%|████████████████████████████████████████████████▎                            | 2000/3184 [00:02<00:01, 898.73it/s]
+
+ 94%|████████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:06<00:00, 389.03it/s]
+
+4000it [00:09, 387.11it/s]
+----2----
+
+ 63%|████████████████████████████████████████████████▎                            | 2000/3184 [00:02<00:01, 828.33it/s]
+
+4000it [00:06, 594.28it/s]
+----2----
+4000it [00:10, 392.50it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 31%|███████████████████████▊                                                    | 1000/3184 [00:00<00:00, 5874.40it/s]
+
+ 63%|████████████████████████████████████████████████▎                            | 2000/3184 [00:04<00:02, 397.97it/s]
+
+4000it [00:10, 380.44it/s]
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  3
+	 TRAIN: {'MRR': 0.9427797198295593, 'hits@[1,3,10]': [0.8969999551773071, 0.9915000200271606, 1.0]}
+	 VALID: {'MRR': 0.6707405745983124, 'hits@[1,3,10]': [0.48241204023361206, 0.8140703439712524, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6635782122612, 'hits@[1,3,10]': [0.46766167879104614, 0.8383084535598755, 0.9900497794151306]}
+
+ 63%|████████████████████████████████████████████████▎                            | 2000/3184 [00:07<00:04, 250.59it/s]
+----2----
+----2----
+
+4000it [00:12, 366.10it/s]
+----2----
+----2----
+4000it [00:13, 300.72it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+4000it [00:01, 2264.37it/s]
+----2----
+----2----
+
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 2740.89it/s]
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  6
+	 TRAIN: {'MRR': 0.9661463797092438, 'hits@[1,3,10]': [0.9375, 0.996999979019165, 1.0]}
+	 VALID: {'MRR': 0.6618499755859375, 'hits@[1,3,10]': [0.4673366844654083, 0.8341708183288574, 0.9899497032165527]}
+	 TEST: {'MRR': 0.6766672134399414, 'hits@[1,3,10]': [0.4726368188858032, 0.8731343150138855, 0.9925373196601868]}
+4000it [00:02, 1373.79it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2460.98it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 4843.20it/s]
+----2----
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2669.46it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 2918.65it/s]
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  9
+	 TRAIN: {'MRR': 0.9866833686828613, 'hits@[1,3,10]': [0.9745000004768372, 0.9984999895095825, 1.0]}
+	 VALID: {'MRR': 0.6899398565292358, 'hits@[1,3,10]': [0.5025125741958618, 0.8417085409164429, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6927584409713745, 'hits@[1,3,10]': [0.4950248599052429, 0.8706467747688293, 0.9950248599052429]}
+----2----
+
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 3114.29it/s]
+----2----
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2748.65it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 3196.70it/s]
+----2----
+----2----
+----2----
+----2----
+Evaluate the split train
+
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:01<00:00, 2664.27it/s]
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  12
+	 TRAIN: {'MRR': 0.9892916679382324, 'hits@[1,3,10]': [0.9789999723434448, 0.999500036239624, 1.0]}
+	 VALID: {'MRR': 0.6733547747135162, 'hits@[1,3,10]': [0.4849246144294739, 0.8216080665588379, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6947356462478638, 'hits@[1,3,10]': [0.5024875402450562, 0.86069655418396, 0.9950248599052429]}
+----2----
+----2----
+----2----
+4000it [00:02, 1671.80it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+4000it [00:01, 3778.01it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2290.69it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+4000it [00:01, 3477.71it/s]
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  15
+	 TRAIN: {'MRR': 0.9898332953453064, 'hits@[1,3,10]': [0.9800000190734863, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6716200113296509, 'hits@[1,3,10]': [0.46984922885894775, 0.8442211151123047, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6821526885032654, 'hits@[1,3,10]': [0.4751243591308594, 0.8606964945793152, 0.9975124597549438]}
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2424.08it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2390.47it/s]                                                                   | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 3948.58it/s]
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  18
+	 TRAIN: {'MRR': 0.9940416514873505, 'hits@[1,3,10]': [0.9884999990463257, 0.999500036239624, 1.0]}
+	 VALID: {'MRR': 0.6629937887191772, 'hits@[1,3,10]': [0.45728641748428345, 0.8442211151123047, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6700751781463623, 'hits@[1,3,10]': [0.45771145820617676, 0.858208954334259, 0.9950249195098877]}
+4000it [00:02, 1630.22it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+----2----
+----2----
+----2----
+4000it [00:01, 2259.63it/s]                                                                   | 0/3184 [00:00<?, ?it/s]
+4000it [00:01, 3391.98it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2508.09it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 3788.32it/s]
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  21
+	 TRAIN: {'MRR': 0.9947499930858612, 'hits@[1,3,10]': [0.9894999861717224, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6667855381965637, 'hits@[1,3,10]': [0.4648241400718689, 0.8316582441329956, 0.9899497032165527]}
+	 TEST: {'MRR': 0.6849384605884552, 'hits@[1,3,10]': [0.48009949922561646, 0.8656716346740723, 0.9950249195098877]}
+----2----
+
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 4290.11it/s]
+----2----
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2656.48it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 3263.08it/s]
+----2----
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+
+4000it [00:01, 4008.25it/s]
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  24
+	 TRAIN: {'MRR': 0.9945000112056732, 'hits@[1,3,10]': [0.9889999628067017, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6481696665287018, 'hits@[1,3,10]': [0.43718594312667847, 0.8341708183288574, 0.9899497032165527]}
+	 TEST: {'MRR': 0.6753692924976349, 'hits@[1,3,10]': [0.46268656849861145, 0.86069655418396, 0.9950249195098877]}
+----2----
+----2----
+----2----
+4000it [00:02, 1773.64it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+4000it [00:01, 2974.64it/s]
+----2----
+
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:01<00:00, 1793.77it/s]
+----2----
+4000it [00:03, 1320.80it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2992.08it/s]
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  27
+	 TRAIN: {'MRR': 0.996749997138977, 'hits@[1,3,10]': [0.9934999942779541, 1.0, 1.0]}
+	 VALID: {'MRR': 0.675384908914566, 'hits@[1,3,10]': [0.48241207003593445, 0.8341708183288574, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6795823276042938, 'hits@[1,3,10]': [0.46517413854599, 0.8706467747688293, 0.9950249195098877]}
+----2----
+
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 3212.54it/s]
+----2----
+----2----
+----2----
+4000it [00:01, 2030.15it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 3460.30it/s]
+----2----
+----2----
+----2----
+----2----
+----2----
+
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 2881.39it/s]
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  30
+	 TRAIN: {'MRR': 0.9979999959468842, 'hits@[1,3,10]': [0.9959999918937683, 1.0, 1.0]}
+	 VALID: {'MRR': 0.659817099571228, 'hits@[1,3,10]': [0.4522612988948822, 0.8442211151123047, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6676329672336578, 'hits@[1,3,10]': [0.44527363777160645, 0.8805969953536987, 0.9975124597549438]}
+----2----
+----2----
+4000it [00:02, 1837.34it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+4000it [00:01, 3878.21it/s]
+----2----
+----2----
+----2----
+----2----
+
+4000it [00:01, 3369.89it/s]
+----2----
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+4000it [00:01, 2267.93it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 2941.03it/s]
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  33
+	 TRAIN: {'MRR': 0.9989999830722809, 'hits@[1,3,10]': [0.9980000257492065, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6602130234241486, 'hits@[1,3,10]': [0.4497487545013428, 0.8341708779335022, 0.9899497032165527]}
+	 TEST: {'MRR': 0.684569239616394, 'hits@[1,3,10]': [0.4776119589805603, 0.8781094551086426, 0.9975124597549438]}
+----2----
+----2----
+----2----
+4000it [00:01, 2440.81it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+----2----
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2641.84it/s]                                                                   | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 4102.17it/s]
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  36
+	 TRAIN: {'MRR': 0.9989999830722809, 'hits@[1,3,10]': [0.9980000257492065, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6457328200340271, 'hits@[1,3,10]': [0.4296482503414154, 0.8291457295417786, 0.9899497032165527]}
+	 TEST: {'MRR': 0.676557719707489, 'hits@[1,3,10]': [0.4601989984512329, 0.8805969953536987, 0.9950248599052429]}
+----2----
+4000it [00:02, 1944.48it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 3971.17it/s]
+----2----
+----2----
+----2----
+
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 3074.87it/s]
+----2----
+----2----
+----2----
+4000it [00:02, 1957.62it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 3616.23it/s]
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  39
+	 TRAIN: {'MRR': 0.9997499883174896, 'hits@[1,3,10]': [0.999500036239624, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6620405316352844, 'hits@[1,3,10]': [0.4522613286972046, 0.8366833925247192, 0.9924622774124146]}
+	 TEST: {'MRR': 0.675454169511795, 'hits@[1,3,10]': [0.46268656849861145, 0.8706467151641846, 0.9950249195098877]}
+
+4000it [00:01, 3465.15it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2207.53it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 3768.60it/s]
+----2----
+----2----
+----2----
+
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:01<00:00, 2802.74it/s]
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  42
+	 TRAIN: {'MRR': 0.9991666376590729, 'hits@[1,3,10]': [0.9984999895095825, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6599107682704926, 'hits@[1,3,10]': [0.4497487545013428, 0.8341708779335022, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6692903637886047, 'hits@[1,3,10]': [0.45024874806404114, 0.8756219148635864, 0.9950249195098877]}
+4000it [00:02, 1730.76it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 4271.58it/s]
+----2----
+----2----
+----2----
+----2----
+
+4000it [00:01, 3955.51it/s]
+----2----
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2493.70it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+4000it [00:01, 3895.64it/s]
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  45
+	 TRAIN: {'MRR': 0.9995000064373016, 'hits@[1,3,10]': [0.9990000128746033, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6613765358924866, 'hits@[1,3,10]': [0.4497487545013428, 0.8417085409164429, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6702675521373749, 'hits@[1,3,10]': [0.4477611780166626, 0.8731343150138855, 0.9975124597549438]}
+----2----
+----2----
+----2----
+
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 3020.99it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2657.58it/s]
+4000it [00:01, 2706.90it/s]
+4000it [00:02, 1930.71it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  48
+	 TRAIN: {'MRR': 0.9995000064373016, 'hits@[1,3,10]': [0.9990000128746033, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6596715450286865, 'hits@[1,3,10]': [0.44723618030548096, 0.8467336893081665, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6781332492828369, 'hits@[1,3,10]': [0.46766167879104614, 0.8781094551086426, 0.9950249195098877]}
+----2----
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2717.40it/s]
+4000it [00:01, 2676.74it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 3030.53it/s]
+----2----
+----2----
+----2----
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  51
+	 TRAIN: {'MRR': 0.9997499883174896, 'hits@[1,3,10]': [0.999500036239624, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6633626222610474, 'hits@[1,3,10]': [0.45979899168014526, 0.8366833925247192, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6854704022407532, 'hits@[1,3,10]': [0.4875621795654297, 0.8631840944290161, 0.9950249195098877]}
+----2----
+----2----
+----2----
+
+4000it [00:01, 2858.64it/s]
+4000it [00:01, 2536.91it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 2854.79it/s]
+----2----
+----2----
+----2----
+----2----
+----2----
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  54
+	 TRAIN: {'MRR': 0.9992499947547913, 'hits@[1,3,10]': [0.9984999895095825, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6692192256450653, 'hits@[1,3,10]': [0.47236180305480957, 0.8291457295417786, 0.9899497032165527]}
+	 TEST: {'MRR': 0.6882511377334595, 'hits@[1,3,10]': [0.4751243591308594, 0.8880597352981567, 0.9950249195098877]}
+4000it [00:02, 1896.31it/s]
+4000it [00:01, 2729.70it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 3118.55it/s]
+----2----
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2819.70it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 2959.22it/s]
+----2----
+----2----
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  57
+	 TRAIN: {'MRR': 0.9997499883174896, 'hits@[1,3,10]': [0.999500036239624, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6648091375827789, 'hits@[1,3,10]': [0.45728641748428345, 0.8341708779335022, 0.9974874258041382]}
+	 TEST: {'MRR': 0.6867615282535553, 'hits@[1,3,10]': [0.4825870394706726, 0.8656716346740723, 0.9950249195098877]}
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2736.90it/s]
+4000it [00:01, 2759.44it/s]                                                                   | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 4213.91it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:02, 1876.09it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 4307.24it/s]
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  60
+	 TRAIN: {'MRR': 0.9995000064373016, 'hits@[1,3,10]': [0.9990000128746033, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6532503962516785, 'hits@[1,3,10]': [0.43467336893081665, 0.8216080665588379, 0.9949748516082764]}
+	 TEST: {'MRR': 0.671970546245575, 'hits@[1,3,10]': [0.4527363181114197, 0.8781094551086426, 0.9950249195098877]}
+----2----
+----2----
+----2----
+----2----
+----2----
+----2----
+----2----
+
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 3045.22it/s]
+----2----
+----2----
+----2----
+4000it [00:01, 2737.35it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 3052.99it/s]
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  63
+	 TRAIN: {'MRR': 0.9984999895095825, 'hits@[1,3,10]': [0.996999979019165, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6666856706142426, 'hits@[1,3,10]': [0.4648241102695465, 0.8316583037376404, 0.9949748516082764]}
+	 TEST: {'MRR': 0.6772053241729736, 'hits@[1,3,10]': [0.4701492488384247, 0.86069655418396, 0.9950249195098877]}
+----2----
+----2----
+----2----
+
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 3212.00it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2793.34it/s]
+4000it [00:01, 2543.91it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 2843.53it/s]
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  66
+	 TRAIN: {'MRR': 0.9992499947547913, 'hits@[1,3,10]': [0.9984999895095825, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6626228094100952, 'hits@[1,3,10]': [0.45728641748428345, 0.8266332149505615, 0.9949748516082764]}
+
+4000it [00:01, 3705.57it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:02, 1686.76it/s]
+4000it [00:01, 2631.86it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 2856.95it/s]
+----2----
+----2----
+4000it [00:02, 1600.99it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+----2----
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+4000it [00:01, 3189.35it/s]
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  69
+	 TRAIN: {'MRR': 0.9997499883174896, 'hits@[1,3,10]': [0.999500036239624, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6592736542224884, 'hits@[1,3,10]': [0.44723618030548096, 0.8366833925247192, 0.9974874258041382]}
+	 TEST: {'MRR': 0.6703478395938873, 'hits@[1,3,10]': [0.45771145820617676, 0.86069655418396, 0.9950249195098877]}
+----2----
+----2----
+
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:01<00:00, 2556.00it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2273.16it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+4000it [00:01, 3685.48it/s]
+----2----
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 2896.70it/s]
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  72
+	 TRAIN: {'MRR': 0.9995000064373016, 'hits@[1,3,10]': [0.9990000128746033, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6598997712135315, 'hits@[1,3,10]': [0.44723618030548096, 0.839195966720581, 0.9949748516082764]}
+	 TEST: {'MRR': 0.6902166903018951, 'hits@[1,3,10]': [0.49253731966018677, 0.86069655418396, 0.9950249195098877]}
+----2----
+----2----
+----2----
+----2----
+4000it [00:02, 1901.16it/s]
+4000it [00:01, 2662.22it/s]                                                                   | 0/3184 [00:00<?, ?it/s]
+4000it [00:01, 4135.46it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2562.25it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 4364.08it/s]
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  75
+	 TRAIN: {'MRR': 0.9992499947547913, 'hits@[1,3,10]': [0.9984999895095825, 1.0, 1.0]}
+	 VALID: {'MRR': 0.662327766418457, 'hits@[1,3,10]': [0.4522613286972046, 0.8291457295417786, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6630360782146454, 'hits@[1,3,10]': [0.4378109574317932, 0.8681591749191284, 0.9950249195098877]}
+----2----
+
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 4308.04it/s]
+----2----
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2644.19it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 3053.10it/s]
+----2----
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 3280.50it/s]
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  78
+	 TRAIN: {'MRR': 0.9995000064373016, 'hits@[1,3,10]': [0.9990000128746033, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6631363034248352, 'hits@[1,3,10]': [0.45979899168014526, 0.8316583037376404, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6661702394485474, 'hits@[1,3,10]': [0.44527363777160645, 0.8656716346740723, 0.9950249195098877]}
+----2----
+----2----
+----2----
+4000it [00:02, 1871.57it/s]
+4000it [00:01, 2726.30it/s]
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:00<00:00, 3029.71it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2739.12it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 4235.14it/s]
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+
+4000it [00:01, 3856.65it/s]
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  81
+	 TRAIN: {'MRR': 0.9994999766349792, 'hits@[1,3,10]': [0.9990000128746033, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6706490218639374, 'hits@[1,3,10]': [0.4748743772506714, 0.8266332149505615, 0.9924622774124146]}
+	 TEST: {'MRR': 0.6771352291107178, 'hits@[1,3,10]': [0.46517413854599, 0.8631840944290161, 0.9950249195098877]}
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2761.32it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 4187.67it/s]
+----2----
+----2----
+----2----
+----2----
+
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 4067.62it/s]
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  84
+	 TRAIN: {'MRR': 1.0, 'hits@[1,3,10]': [1.0, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6591709554195404, 'hits@[1,3,10]': [0.45979899168014526, 0.8241205811500549, 0.9949748516082764]}
+	 TEST: {'MRR': 0.6778016090393066, 'hits@[1,3,10]': [0.47014927864074707, 0.8681591749191284, 0.9950249195098877]}
+----2----
+4000it [00:02, 1760.85it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 4640.66it/s]
+----2----
+----2----
+----2----
+----2----
+
+4000it [00:01, 3456.17it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2264.94it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+4000it [00:01, 3221.82it/s]
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  87
+	 TRAIN: {'MRR': 1.0, 'hits@[1,3,10]': [1.0, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6614970266819, 'hits@[1,3,10]': [0.45979899168014526, 0.8291457295417786, 0.9974874258041382]}
+	 TEST: {'MRR': 0.6696044206619263, 'hits@[1,3,10]': [0.4552238881587982, 0.858208954334259, 0.9950249195098877]}
+----2----
+----2----
+----2----
+4000it [00:02, 1672.88it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+----2----
+----2----
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:01<00:00, 1429.59it/s]
+----2----
+----2----
+
+4000it [00:04, 882.18it/s]
+----2----
+----2----
+----2----
+Evaluate the split train
+
+4000it [00:01, 2294.55it/s]
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  90
+	 TRAIN: {'MRR': 1.0, 'hits@[1,3,10]': [1.0, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6594500243663788, 'hits@[1,3,10]': [0.45728641748428345, 0.8266332149505615, 1.0]}
+	 TEST: {'MRR': 0.6758786141872406, 'hits@[1,3,10]': [0.46517413854599, 0.8706467747688293, 0.9950249195098877]}
+4000it [00:03, 1035.45it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 2395.50it/s]
+----2----
+----2----
+
+4000it [00:01, 1997.86it/s]
+----2----
+
+ 94%|███████████████████████████████████████████████████████████████████████▌    | 3000/3184 [00:01<00:00, 1522.52it/s]
+----2----
+----2----
+4000it [00:02, 1343.69it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+ 63%|███████████████████████████████████████████████▋                            | 2000/3184 [00:00<00:00, 2959.68it/s]
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+
+4000it [00:01, 3128.89it/s]
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  93
+	 TRAIN: {'MRR': 1.0, 'hits@[1,3,10]': [1.0, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6682002544403076, 'hits@[1,3,10]': [0.47236180305480957, 0.8291457295417786, 0.9974874258041382]}
+	 TEST: {'MRR': 0.6766119003295898, 'hits@[1,3,10]': [0.46268656849861145, 0.8731343746185303, 0.9950249195098877]}
+----2----
+----2----
+----2----
+
+4000it [00:01, 3168.25it/s]
+----2----
+----2----
+----2----
+----2----
+4000it [00:01, 2142.74it/s]
+4000it [00:01, 2236.35it/s]                                                                   | 0/3184 [00:00<?, ?it/s]
+4000it [00:01, 3448.72it/s]
+----2----
+----2----
+----2----
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+
+4000it [00:01, 3561.09it/s]
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  96
+	 TRAIN: {'MRR': 1.0, 'hits@[1,3,10]': [1.0, 1.0, 1.0]}
+	 VALID: {'MRR': 0.6583972871303558, 'hits@[1,3,10]': [0.4522613286972046, 0.8316582441329956, 0.9974874258041382]}
+	 TEST: {'MRR': 0.6674791872501373, 'hits@[1,3,10]': [0.44527363777160645, 0.8756219148635864, 0.9950249195098877]}
+----2----
+----2----
+----2----
+----2----
+4000it [00:02, 1718.60it/s]
+4000it [00:01, 2483.06it/s]                                                                   | 0/3184 [00:00<?, ?it/s]
+4000it [00:01, 3733.23it/s]
+----2----
+----2----
+----2----
+4000it [00:02, 1881.89it/s]
+  0%|                                                                                         | 0/3184 [00:00<?, ?it/s]
+----2----
+----2----
+----2----
+4000it [00:01, 2558.35it/s]
+Evaluate the split train
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split valid
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+	 Epoch:  99
+	 TRAIN: {'MRR': 1.0, 'hits@[1,3,10]': [1.0, 1.0, 1.0]}
+	 VALID: {'MRR': 0.65212681889534, 'hits@[1,3,10]': [0.4422110617160797, 0.8266331553459167, 0.9949748516082764]}
+	 TEST: {'MRR': 0.6637517511844635, 'hits@[1,3,10]': [0.44029849767684937, 0.8756219148635864, 0.9950249195098877]}
+Evaluate the split test
+Evaluating the rhs
+Evaluating the lhs
+Num neg per head/tail 0
+TEST : MRR {'rhs': 0.6792901158332825, 'lhs': 0.6482133865356445} Hits {'rhs': tensor([0.4677, 0.8657, 1.0000]), 'lhs': tensor([0.4129, 0.8856, 0.9900])}
+Episode Done
+4000it [00:01, 2558.35it/s]

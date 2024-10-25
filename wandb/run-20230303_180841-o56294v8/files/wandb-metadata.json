@@ -1,0 +1,55 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.9.0",
+    "heartbeatAt": "2023-03-03T10:08:42.899441",
+    "startedAt": "2023-03-03T10:08:41.420019",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--dataset",
+        "FB15K-237",
+        "--score_rel",
+        "True",
+        "--model",
+        "ComplEx",
+        "--rank",
+        "1000",
+        "--learning_rate",
+        "0.1",
+        "--batch_size",
+        "1000",
+        "--lmbda",
+        "0.05",
+        "--w_rel",
+        "4",
+        "--max_epochs",
+        "100"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\shanthod\\Downloads\\ssl-relation-prediction-main\\ssl-relation-prediction-main\\src\\main.py",
+    "codePath": "main.py",
+    "host": "shanthod0QG3L",
+    "username": "shanthod",
+    "executable": "C:\\Users\\shanthod\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1403.0,
+        "min": 0.0,
+        "max": 1805.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1403.0,
+            "min": 0.0,
+            "max": 1805.0
+        }
+    ],
+    "disk": {
+        "total": 474.31444931030273,
+        "used": 371.92345428466797
+    },
+    "memory": {
+        "total": 31.72928237915039
+    }
+}
