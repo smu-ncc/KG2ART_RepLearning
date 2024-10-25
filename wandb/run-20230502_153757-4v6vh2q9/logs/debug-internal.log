@@ -1,0 +1,410 @@
+2023-05-02 15:37:57,405 INFO    StreamThr :1004 [internal.py:wandb_internal():87] W&B internal server running at pid: 1004, started at: 2023-05-02 15:37:57.404268
+2023-05-02 15:37:57,408 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status
+2023-05-02 15:37:57,424 INFO    WriterThread:1004 [datastore.py:open_for_write():85] open: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\run-4v6vh2q9.wandb
+2023-05-02 15:37:57,426 DEBUG   SenderThread:1004 [sender.py:send():336] send: header
+2023-05-02 15:37:57,439 DEBUG   SenderThread:1004 [sender.py:send():336] send: run
+2023-05-02 15:37:58,172 INFO    SenderThread:1004 [dir_watcher.py:__init__():216] watching files in: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files
+2023-05-02 15:37:58,173 INFO    SenderThread:1004 [sender.py:_start_run_threads():1067] run started: 4v6vh2q9 with start time 1683013077.407121
+2023-05-02 15:37:58,173 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: summary_record
+2023-05-02 15:37:58,176 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: check_version
+2023-05-02 15:37:58,176 INFO    SenderThread:1004 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-05-02 15:37:58,176 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: check_version
+2023-05-02 15:37:58,278 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: run_start
+2023-05-02 15:37:58,308 DEBUG   HandlerThread:1004 [system_info.py:__init__():31] System info init
+2023-05-02 15:37:58,308 DEBUG   HandlerThread:1004 [system_info.py:__init__():46] System info init done
+2023-05-02 15:37:58,308 INFO    HandlerThread:1004 [system_monitor.py:start():151] Starting system monitor
+2023-05-02 15:37:58,309 INFO    SystemMonitor:1004 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-05-02 15:37:58,309 INFO    HandlerThread:1004 [system_monitor.py:probe():172] Collecting system info
+2023-05-02 15:37:58,319 INFO    SystemMonitor:1004 [interfaces.py:start():168] Started cpu
+2023-05-02 15:37:58,320 INFO    SystemMonitor:1004 [interfaces.py:start():168] Started disk
+2023-05-02 15:37:58,321 DEBUG   HandlerThread:1004 [system_info.py:probe():195] Probing system
+2023-05-02 15:37:58,321 INFO    SystemMonitor:1004 [interfaces.py:start():168] Started memory
+2023-05-02 15:37:58,334 INFO    SystemMonitor:1004 [interfaces.py:start():168] Started network
+2023-05-02 15:37:58,352 DEBUG   HandlerThread:1004 [git.py:repo():40] git repository is invalid
+2023-05-02 15:37:58,352 DEBUG   HandlerThread:1004 [system_info.py:probe():241] Probing system done
+2023-05-02 15:37:58,352 DEBUG   HandlerThread:1004 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.9.0', 'heartbeatAt': '2023-05-02T07:37:58.321796', 'startedAt': '2023-05-02T07:37:57.381775', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'shanthod0QG3L', 'username': 'shanthod', 'executable': 'C:\\Users\\shanthod\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1805.0, 'min': 0.0, 'max': 1805.0}, 'cpu_freq_per_core': [{'current': 1805.0, 'min': 0.0, 'max': 1805.0}], 'disk': {'total': 474.31444931030273, 'used': 455.07403564453125}, 'memory': {'total': 31.72928237915039}}
+2023-05-02 15:37:58,352 INFO    HandlerThread:1004 [system_monitor.py:probe():182] Finished collecting system info
+2023-05-02 15:37:58,352 INFO    HandlerThread:1004 [system_monitor.py:probe():185] Publishing system info
+2023-05-02 15:37:58,352 DEBUG   HandlerThread:1004 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-02 15:37:58,363 DEBUG   HandlerThread:1004 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-02 15:37:58,371 INFO    HandlerThread:1004 [system_monitor.py:probe():187] Finished publishing system info
+2023-05-02 15:37:58,414 DEBUG   SenderThread:1004 [sender.py:send():336] send: files
+2023-05-02 15:37:58,414 INFO    SenderThread:1004 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-05-02 15:37:58,436 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-02 15:37:58,437 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: stop_status
+2023-05-02 15:37:58,747 DEBUG   SenderThread:1004 [sender.py:send():336] send: telemetry
+2023-05-02 15:37:58,750 DEBUG   SenderThread:1004 [sender.py:send():336] send: config
+2023-05-02 15:37:58,751 DEBUG   SenderThread:1004 [sender.py:send():336] send: telemetry
+2023-05-02 15:37:58,752 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: summary_record
+2023-05-02 15:37:58,757 INFO    SenderThread:1004 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-05-02 15:37:58,759 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: summary_record
+2023-05-02 15:37:58,764 INFO    SenderThread:1004 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-05-02 15:37:59,182 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\wandb-summary.json
+2023-05-02 15:37:59,183 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:37:59,184 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\wandb-metadata.json
+2023-05-02 15:37:59,185 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\requirements.txt
+2023-05-02 15:37:59,900 INFO    wandb-upload_0:1004 [upload_job.py:push():138] Uploaded file C:\Users\shanthod\AppData\Local\Temp\tmptvmdi1cfwandb\jlr0p2ab-wandb-metadata.json
+2023-05-02 15:38:01,201 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:38:02,929 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:38:03,227 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:38:07,991 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:38:13,045 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:38:13,452 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:38:18,114 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:38:18,548 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:38:23,369 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:38:23,694 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:38:28,609 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:38:28,652 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:38:29,876 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\config.yaml
+2023-05-02 15:38:52,818 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:38:53,106 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:38:53,107 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:38:57,790 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:38:57,852 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:38:58,346 DEBUG   SystemMonitor:1004 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-05-02 15:38:58,349 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:39:02,884 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:39:03,428 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:39:07,923 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:39:08,465 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:39:12,948 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:39:13,491 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:39:17,998 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:39:18,536 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:39:23,039 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:39:23,598 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:39:28,084 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:39:28,360 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:39:29,372 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:39:33,147 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:39:34,400 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:39:38,185 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:39:39,460 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:39:43,241 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:39:44,492 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:39:47,934 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-02 15:39:47,935 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-02 15:39:47,935 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-02 15:39:47,935 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-02 15:39:48,265 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:39:49,681 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:39:49,967 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:39:53,319 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:39:55,761 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:39:55,893 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:39:58,370 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:39:58,371 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:40:01,405 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:40:03,405 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:40:06,358 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:40:07,299 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:40:08,442 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:40:12,342 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:40:14,390 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:40:17,401 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:40:19,488 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:40:22,432 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:40:24,532 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:40:27,528 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:40:28,419 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:40:29,633 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:40:33,493 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:40:34,721 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:40:38,830 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:40:39,869 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:40:43,975 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:40:44,960 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:40:49,026 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:40:50,821 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:40:54,096 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:40:55,928 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:40:58,752 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:40:59,767 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:41:01,001 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:41:04,813 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:41:06,159 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:41:09,935 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:41:11,275 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:41:15,475 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:41:16,366 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:41:20,686 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:41:21,437 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:41:25,745 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:41:26,472 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:41:28,759 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:41:30,768 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:41:31,522 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:41:35,828 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:41:36,571 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:41:40,850 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:41:41,604 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:41:45,898 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:41:46,641 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:41:50,937 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:41:51,681 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:41:55,975 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:41:56,737 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:41:58,769 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:42:01,807 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:42:01,809 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:42:06,850 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:42:06,851 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:42:11,889 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:42:11,890 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:42:16,977 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:42:16,979 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:42:22,030 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:42:22,031 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:42:27,075 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:42:27,095 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:42:28,782 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:42:30,185 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:42:32,153 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:42:32,840 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:42:37,209 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:42:38,644 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:42:39,584 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:42:42,259 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:42:43,729 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:42:47,337 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:42:48,793 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:42:52,390 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:42:53,833 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:42:57,434 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:42:58,798 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:42:59,814 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:43:02,502 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:43:04,845 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:43:07,548 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:43:09,897 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:43:12,707 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:43:15,214 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:43:18,120 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:43:20,326 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:43:23,182 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:43:25,372 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:43:28,334 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:43:28,856 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:43:30,869 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:43:33,380 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:43:35,982 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:43:38,436 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:43:41,029 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:43:43,460 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:43:46,086 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:43:48,554 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:43:51,126 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:43:53,648 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:43:56,168 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:43:58,658 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:43:58,851 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:44:01,918 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:44:03,744 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:44:06,916 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:44:08,782 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:44:11,953 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:44:13,819 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:44:16,983 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:44:18,857 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:44:22,036 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:44:23,907 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:44:27,069 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:44:28,856 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:44:28,942 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:44:32,877 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:44:33,976 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:44:37,913 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:44:39,011 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:44:42,946 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:44:44,064 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:44:47,045 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:44:48,435 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:44:49,105 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:44:53,483 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:44:54,146 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:44:54,240 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:44:58,537 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:44:58,861 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:44:59,187 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:45:03,909 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:45:04,691 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:45:08,974 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:45:09,746 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:45:14,002 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:45:14,782 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:45:19,077 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:45:19,843 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:45:24,513 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:45:24,890 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:45:28,936 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:45:30,025 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:45:30,976 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:45:35,079 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:45:35,916 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:45:40,117 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:45:41,538 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:45:45,151 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:45:46,594 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:45:50,186 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:45:51,774 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:45:55,234 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:45:56,760 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:45:59,203 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:46:00,381 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:46:01,863 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:05,519 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:46:06,963 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:10,710 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:46:12,176 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:15,791 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:46:17,235 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:20,827 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:46:22,286 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:22,286 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:25,871 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:46:27,331 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:29,145 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:46:31,171 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:46:32,368 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:36,231 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:46:37,433 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:41,274 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:46:42,491 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:46,377 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:46:47,562 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:51,427 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:46:52,648 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:56,501 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:46:57,693 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:46:59,168 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:47:02,207 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:47:02,746 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:47:07,272 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:47:07,810 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:47:12,308 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:47:12,847 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:47:17,388 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:47:17,873 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:47:22,429 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:47:22,923 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:47:27,472 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:47:27,966 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:47:29,172 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:47:33,008 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:47:33,201 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:47:36,847 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:47:38,460 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:47:38,565 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:47:38,926 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:47:43,028 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:47:43,512 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:47:44,506 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:47:45,082 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:47:48,979 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:47:49,169 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:47:49,658 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:47:49,674 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-02 15:47:49,692 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-02 15:47:49,694 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-02 15:47:49,695 DEBUG   SenderThread:1004 [sender.py:send():336] send: history
+2023-05-02 15:47:49,696 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-02 15:47:49,696 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: summary_record
+2023-05-02 15:47:49,697 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-02 15:47:49,699 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-02 15:47:49,716 INFO    SenderThread:1004 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-05-02 15:47:49,728 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: summary_record
+2023-05-02 15:47:49,737 INFO    SenderThread:1004 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-05-02 15:47:49,738 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: summary_record
+2023-05-02 15:47:49,748 INFO    SenderThread:1004 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-05-02 15:47:49,750 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: summary_record
+2023-05-02 15:47:49,759 INFO    SenderThread:1004 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-05-02 15:47:49,760 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: summary_record
+2023-05-02 15:47:49,767 INFO    SenderThread:1004 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-05-02 15:47:49,770 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: summary_record
+2023-05-02 15:47:49,779 INFO    SenderThread:1004 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-05-02 15:47:49,781 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: summary_record
+2023-05-02 15:47:49,791 INFO    SenderThread:1004 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-05-02 15:47:49,792 DEBUG   SenderThread:1004 [sender.py:send_request():363] send_request: summary_record
+2023-05-02 15:47:49,802 INFO    SenderThread:1004 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-05-02 15:47:50,226 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\wandb-summary.json
+2023-05-02 15:47:51,239 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:47:52,274 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:47:54,011 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:47:54,850 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:47:59,056 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:47:59,183 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:47:59,526 INFO    Thread-17 :1004 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230502_153757-4v6vh2q9\files\output.log
+2023-05-02 15:48:00,187 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:48:04,104 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:48:05,258 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:48:09,161 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:48:10,299 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:48:14,223 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:48:15,343 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:48:19,486 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:48:19,487 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:48:20,433 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:48:24,542 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:48:25,484 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:48:29,193 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:48:29,597 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:48:31,217 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:48:34,680 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:48:36,381 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:48:39,772 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:48:41,472 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:48:44,816 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:48:46,707 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:48:49,887 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:48:51,718 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:48:54,964 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:48:56,773 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:48:59,208 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:49:00,037 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:49:02,254 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:49:05,098 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:49:07,308 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:49:10,245 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:49:12,428 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:49:15,363 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:49:17,847 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:49:20,516 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:49:23,193 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:49:25,587 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:49:28,234 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:49:29,235 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:49:30,646 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:49:33,261 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:49:35,703 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:49:38,311 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:49:40,734 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:49:43,342 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:49:45,790 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:49:48,447 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:49:50,836 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:49:53,497 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:49:55,903 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:49:58,598 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:49:59,249 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:50:00,929 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:50:04,298 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:50:05,945 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:50:09,343 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:50:10,987 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:50:14,379 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:50:16,029 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:50:19,418 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:50:21,059 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:50:24,462 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:50:26,116 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:50:29,305 DEBUG   SenderThread:1004 [sender.py:send():336] send: stats
+2023-05-02 15:50:30,322 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:50:31,173 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-02 15:50:35,383 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:50:40,399 DEBUG   HandlerThread:1004 [handler.py:handle_request():144] handle_request: status_report
+2023-05-02 15:50:40,694 ERROR   memory    :1004 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=23096)
+2023-05-02 15:50:40,694 ERROR   memory    :1004 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=23096)
+2023-05-02 15:50:40,924 ERROR   cpu       :1004 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=23096)
+2023-05-02 15:50:40,940 ERROR   cpu       :1004 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=23096)
+2023-05-02 15:50:41,178 INFO    MainThread:1004 [internal.py:handle_exit():77] Internal process exited
