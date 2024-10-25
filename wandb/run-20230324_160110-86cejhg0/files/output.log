@@ -1,0 +1,9 @@
+2
+gtttt
+Creating a sampler of size 544230
+  0%|                                                                                       | 0/544230 [00:00<?, ?it/s]
+1
+Loading to_skip file ...
+FB15K-237 Dataset Stat: (14541, 474, 14541)
+Train/Valid/Test 272115/17535/20466
+Train/Valid/Test 0.877/0.057/0.066
