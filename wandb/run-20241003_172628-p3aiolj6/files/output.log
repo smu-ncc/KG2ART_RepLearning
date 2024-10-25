@@ -1,0 +1,79 @@
+2
+gtttt
+Creating a sampler of size 2880
+
+
+
+ 69%|██████████████████████████████████████████████████████▏                       | 2000/2880 [13:55<06:07,  2.39it/s]
+Note: you may need to restart the kernel to use updated packages.Requirement already satisfied: pykeen in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (1.8.0)
+Requirement already satisfied: class-resolver>=0.3.8 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (0.3.9)
+Requirement already satisfied: docdata in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (0.0.3)
+Requirement already satisfied: rexmex in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (0.1.0)
+Requirement already satisfied: optuna>=2.0.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (2.10.0)
+Requirement already satisfied: scipy>=1.5.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (1.8.0)
+Requirement already satisfied: numpy in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (1.24.3)
+Requirement already satisfied: click in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (8.0.3)
+Requirement already satisfied: click-default-group in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (1.2.2)
+Requirement already satisfied: more-itertools in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (8.12.0)
+Requirement already satisfied: dataclasses-json in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (0.5.7)
+Requirement already satisfied: more-click in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (0.1.1)
+Requirement already satisfied: pystow>=0.1.5 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (0.4.2)
+Requirement already satisfied: requests in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (2.27.1)
+Requirement already satisfied: tqdm in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (4.62.3)
+Requirement already satisfied: sklearn in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (0.0)
+Requirement already satisfied: pyyaml in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (6.0)
+Requirement already satisfied: tabulate in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (0.8.9)
+Requirement already satisfied: pandas>=1.0.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pykeen) (1.3.4)
+Requirement already satisfied: packaging>=20.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from optuna>=2.0.0->pykeen) (23.1)
+Requirement already satisfied: cliff in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from optuna>=2.0.0->pykeen) (3.10.1)
+Requirement already satisfied: colorlog in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from optuna>=2.0.0->pykeen) (6.6.0)
+Requirement already satisfied: cmaes>=0.8.2 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from optuna>=2.0.0->pykeen) (0.8.2)
+Requirement already satisfied: sqlalchemy>=1.1.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from optuna>=2.0.0->pykeen) (2.0.15)
+Requirement already satisfied: alembic in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from optuna>=2.0.0->pykeen) (1.7.7)
+Requirement already satisfied: python-dateutil>=2.7.3 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pandas>=1.0.0->pykeen) (2.8.2)
+Requirement already satisfied: pytz>=2017.3 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from pandas>=1.0.0->pykeen) (2021.3)
+Requirement already satisfied: colorama in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from click->pykeen) (0.4.4)
+Requirement already satisfied: marshmallow<4.0.0,>=3.3.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from dataclasses-json->pykeen) (3.15.0)
+Requirement already satisfied: marshmallow-enum<2.0.0,>=1.5.1 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from dataclasses-json->pykeen) (1.5.1)
+Requirement already satisfied: typing-inspect>=0.4.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from dataclasses-json->pykeen) (0.7.1)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from requests->pykeen) (1.26.14)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from requests->pykeen) (3.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from requests->pykeen) (2021.10.8)
+Requirement already satisfied: charset-normalizer~=2.0.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from requests->pykeen) (2.0.10)
+Requirement already satisfied: scikit-learn in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from rexmex->pykeen) (1.0.2)
+Requirement already satisfied: six>=1.5 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from python-dateutil>=2.7.3->pandas>=1.0.0->pykeen) (1.15.0)
+Requirement already satisfied: typing-extensions>=4.2.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from sqlalchemy>=1.1.0->optuna>=2.0.0->pykeen) (4.6.1)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from sqlalchemy>=1.1.0->optuna>=2.0.0->pykeen) (2.0.2)
+Requirement already satisfied: mypy-extensions>=0.3.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from typing-inspect>=0.4.0->dataclasses-json->pykeen) (0.4.3)
+Requirement already satisfied: Mako in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from alembic->optuna>=2.0.0->pykeen) (1.2.0)
+Requirement already satisfied: PrettyTable>=0.7.2 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from cliff->optuna>=2.0.0->pykeen) (3.2.0)
+Requirement already satisfied: cmd2>=1.0.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from cliff->optuna>=2.0.0->pykeen) (2.4.1)
+Requirement already satisfied: pbr!=2.1.0,>=2.0.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from cliff->optuna>=2.0.0->pykeen) (5.8.1)
+Requirement already satisfied: pyparsing>=2.1.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from cliff->optuna>=2.0.0->pykeen) (2.4.7)
+Requirement already satisfied: autopage>=0.4.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from cliff->optuna>=2.0.0->pykeen) (0.5.0)
+Requirement already satisfied: stevedore>=2.0.1 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from cliff->optuna>=2.0.0->pykeen) (3.5.0)
+Requirement already satisfied: threadpoolctl>=2.0.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from scikit-learn->rexmex->pykeen) (3.1.0)
+Requirement already satisfied: joblib>=0.11 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from scikit-learn->rexmex->pykeen) (1.1.0)
+Requirement already satisfied: wcwidth>=0.1.7 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from cmd2>=1.0.0->cliff->optuna>=2.0.0->pykeen) (0.2.5)
+Requirement already satisfied: pyreadline3 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from cmd2>=1.0.0->cliff->optuna>=2.0.0->pykeen) (3.4.1)
+Requirement already satisfied: pyperclip>=1.6 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from cmd2>=1.0.0->cliff->optuna>=2.0.0->pykeen) (1.8.2)
+Requirement already satisfied: attrs>=16.3.0 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from cmd2>=1.0.0->cliff->optuna>=2.0.0->pykeen) (21.2.0)
+Requirement already satisfied: MarkupSafe>=0.9.2 in c:\users\shanthod\appdata\local\programs\python\python39\lib\site-packages (from Mako->alembic->optuna>=2.0.0->pykeen) (2.0.1)
+[notice] A new release of pip is available: 23.0.1 -> 24.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+INFO:pykeen.datasets.utils:Caching preprocessed dataset to file:///C:/Users/shanthod/.data/pykeen/datasets/nations/cache/47DEQpj8HBSa-_TImW-5JCeuQeRkm5NM
+INFO:pykeen.triples.triples_factory:Stored TriplesFactory(num_entities=14, num_relations=55, num_triples=1592, inverse_triples=False, path="C:\Users\shanthod\AppData\Local\Programs\Python\Python39\Lib\site-packages\pykeen\datasets\nations\train.txt") to file:///C:/Users/shanthod/.data/pykeen/datasets/nations/cache/47DEQpj8HBSa-_TImW-5JCeuQeRkm5NM/training
+INFO:pykeen.datasets.base:Stored training factory to file:///C:/Users/shanthod/.data/pykeen/datasets/nations/cache/47DEQpj8HBSa-_TImW-5JCeuQeRkm5NM/training
+INFO:pykeen.triples.triples_factory:Stored TriplesFactory(num_entities=14, num_relations=55, num_triples=201, inverse_triples=False, path="C:\Users\shanthod\AppData\Local\Programs\Python\Python39\Lib\site-packages\pykeen\datasets\nations\test.txt") to file:///C:/Users/shanthod/.data/pykeen/datasets/nations/cache/47DEQpj8HBSa-_TImW-5JCeuQeRkm5NM/testing
+INFO:pykeen.datasets.base:Stored testing factory to file:///C:/Users/shanthod/.data/pykeen/datasets/nations/cache/47DEQpj8HBSa-_TImW-5JCeuQeRkm5NM/testing
+INFO:pykeen.triples.triples_factory:Stored TriplesFactory(num_entities=14, num_relations=55, num_triples=199, inverse_triples=False, path="C:\Users\shanthod\AppData\Local\Programs\Python\Python39\Lib\site-packages\pykeen\datasets\nations\valid.txt") to file:///C:/Users/shanthod/.data/pykeen/datasets/nations/cache/47DEQpj8HBSa-_TImW-5JCeuQeRkm5NM/validation
+INFO:pykeen.datasets.base:Stored validation factory to file:///C:/Users/shanthod/.data/pykeen/datasets/nations/cache/47DEQpj8HBSa-_TImW-5JCeuQeRkm5NM/validation
+INFO:pykeen.datasets.utils:Loading cached preprocessed dataset from file:///C:/Users/shanthod/.data/pykeen/datasets/nations/cache/47DEQpj8HBSa-_TImW-5JCeuQeRkm5NM
+INFO:pykeen.triples.triples_factory:Loading from file:///C:/Users/shanthod/.data/pykeen/datasets/nations/cache/47DEQpj8HBSa-_TImW-5JCeuQeRkm5NM/training
+INFO:pykeen.triples.triples_factory:Loading from file:///C:/Users/shanthod/.data/pykeen/datasets/nations/cache/47DEQpj8HBSa-_TImW-5JCeuQeRkm5NM/testing
+INFO:pykeen.triples.triples_factory:Loading from file:///C:/Users/shanthod/.data/pykeen/datasets/nations/cache/47DEQpj8HBSa-_TImW-5JCeuQeRkm5NM/validation
+1
+Loading to_skip file ...
+Jet_Engine Dataset Stat: (486, 124, 486)
+Train/Valid/Test 1440/181/181
+Train/Valid/Test 0.799/0.100/0.100

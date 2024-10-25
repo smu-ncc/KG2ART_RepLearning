@@ -1,0 +1,65 @@
+2024-10-03 17:19:18,911 INFO    MainThread:20476 [wandb_setup.py:_flush():68] Configure stats pid to 20476
+2024-10-03 17:19:18,911 INFO    MainThread:20476 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\.config\wandb\settings
+2024-10-03 17:19:18,911 INFO    MainThread:20476 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\wandb\settings
+2024-10-03 17:19:18,911 INFO    MainThread:20476 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-10-03 17:19:18,911 INFO    MainThread:20476 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'C:\\Users\\shanthod\\OneDrive - Singapore Management University\\Desktop\\codes\\main.py'}
+2024-10-03 17:19:18,913 INFO    MainThread:20476 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\wandb\run-20241003_171918-4bq4x6cu\logs\debug.log
+2024-10-03 17:19:18,913 INFO    MainThread:20476 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\wandb\run-20241003_171918-4bq4x6cu\logs\debug-internal.log
+2024-10-03 17:19:18,913 INFO    MainThread:20476 [wandb_init.py:_jupyter_setup():438] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000018B92750B20>
+2024-10-03 17:19:18,913 INFO    MainThread:20476 [wandb_init.py:init():532] calling init triggers
+2024-10-03 17:19:18,913 INFO    MainThread:20476 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {}
+2024-10-03 17:19:18,914 INFO    MainThread:20476 [wandb_init.py:init():588] starting backend
+2024-10-03 17:19:18,914 INFO    MainThread:20476 [wandb_init.py:init():592] setting up manager
+2024-10-03 17:19:18,918 INFO    MainThread:20476 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2024-10-03 17:19:18,934 INFO    MainThread:20476 [wandb_init.py:init():599] backend started and connected
+2024-10-03 17:19:18,952 INFO    MainThread:20476 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2024-10-03 17:19:18,953 INFO    MainThread:20476 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-10-03 17:19:18,953 INFO    MainThread:20476 [wandb_init.py:init():687] updated telemetry
+2024-10-03 17:19:18,970 INFO    MainThread:20476 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2024-10-03 17:19:27,046 WARNING MainThread:20476 [wandb_init.py:init():1154] interrupted
+Traceback (most recent call last):
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_init.py", line 1133, in init
+    run = wi.init()
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_init.py", line 730, in init
+    result = run_init_handle.wait(
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\mailbox.py", line 273, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\mailbox.py", line 120, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\mailbox.py", line 116, in _wait
+    return self._event.wait(timeout=timeout)
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-10-03 17:23:02,967 INFO    MainThread:20476 [wandb_setup.py:_flush():68] Configure stats pid to 20476
+2024-10-03 17:23:02,967 INFO    MainThread:20476 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\.config\wandb\settings
+2024-10-03 17:23:02,967 INFO    MainThread:20476 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\wandb\settings
+2024-10-03 17:23:02,967 INFO    MainThread:20476 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-10-03 17:23:02,967 INFO    MainThread:20476 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'C:\\Users\\shanthod\\OneDrive - Singapore Management University\\Desktop\\codes\\main.py'}
+2024-10-03 17:23:02,968 INFO    MainThread:20476 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\wandb\run-20241003_172302-28md5u49\logs\debug.log
+2024-10-03 17:23:02,969 INFO    MainThread:20476 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\shanthod\OneDrive - Singapore Management University\Desktop\codes\wandb\run-20241003_172302-28md5u49\logs\debug-internal.log
+2024-10-03 17:23:02,969 INFO    MainThread:20476 [wandb_init.py:init():532] calling init triggers
+2024-10-03 17:23:02,969 INFO    MainThread:20476 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {}
+2024-10-03 17:23:02,970 INFO    MainThread:20476 [wandb_init.py:init():588] starting backend
+2024-10-03 17:23:02,970 INFO    MainThread:20476 [wandb_init.py:init():592] setting up manager
+2024-10-03 17:23:02,976 INFO    MainThread:20476 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2024-10-03 17:23:02,980 INFO    MainThread:20476 [wandb_init.py:init():599] backend started and connected
+2024-10-03 17:23:02,993 INFO    MainThread:20476 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2024-10-03 17:23:02,993 INFO    MainThread:20476 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-10-03 17:23:02,993 INFO    MainThread:20476 [wandb_init.py:init():687] updated telemetry
+2024-10-03 17:23:03,015 INFO    MainThread:20476 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2024-10-03 17:24:03,354 ERROR   MainThread:20476 [wandb_init.py:init():741] backend process timed out, exiting...
+encountered error: Error communicating with wandb process, exiting...
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2024-10-03 17:24:03,362 ERROR   MainThread:20476 [wandb_init.py:init():1160] error
+Traceback (most recent call last):
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_init.py", line 1133, in init
+    run = wi.init()
+  File "C:\Users\shanthod\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_init.py", line 759, in init
+    raise error
+wandb.errors.CommError: Error communicating with wandb process, exiting...
+For more info see: https://docs.wandb.ai/library/init#init-start-error
