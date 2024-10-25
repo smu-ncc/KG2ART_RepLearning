@@ -1,0 +1,53 @@
+2023-03-07 17:21:46,850 INFO    MainThread:28692 [wandb_setup.py:_flush():68] Configure stats pid to 28692
+2023-03-07 17:21:46,851 INFO    MainThread:28692 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\.config\wandb\settings
+2023-03-07 17:21:46,851 INFO    MainThread:28692 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\settings
+2023-03-07 17:21:46,851 INFO    MainThread:28692 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-03-07 17:21:46,851 INFO    MainThread:28692 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-07 17:21:46,853 INFO    MainThread:28692 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230307_172146-jhyov8yk\logs\debug.log
+2023-03-07 17:21:46,854 INFO    MainThread:28692 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230307_172146-jhyov8yk\logs\debug-internal.log
+2023-03-07 17:21:46,854 INFO    MainThread:28692 [wandb_init.py:_jupyter_setup():438] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000249BEBF9B80>
+2023-03-07 17:21:46,855 INFO    MainThread:28692 [wandb_init.py:init():532] calling init triggers
+2023-03-07 17:21:46,855 INFO    MainThread:28692 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {}
+2023-03-07 17:21:46,855 INFO    MainThread:28692 [wandb_init.py:init():588] starting backend
+2023-03-07 17:21:46,855 INFO    MainThread:28692 [wandb_init.py:init():592] setting up manager
+2023-03-07 17:21:46,864 INFO    MainThread:28692 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-07 17:21:46,874 INFO    MainThread:28692 [wandb_init.py:init():599] backend started and connected
+2023-03-07 17:21:46,904 INFO    MainThread:28692 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-03-07 17:21:46,910 INFO    MainThread:28692 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-07 17:21:46,910 INFO    MainThread:28692 [wandb_init.py:init():687] updated telemetry
+2023-03-07 17:21:46,928 INFO    MainThread:28692 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-03-07 17:21:47,565 INFO    MainThread:28692 [wandb_run.py:_on_init():2134] communicating current version
+2023-03-07 17:21:47,629 INFO    MainThread:28692 [wandb_run.py:_on_init():2143] got version response 
+2023-03-07 17:21:47,629 INFO    MainThread:28692 [wandb_init.py:init():775] starting run threads in backend
+2023-03-07 17:21:47,814 INFO    MainThread:28692 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-07 17:21:47,815 INFO    MainThread:28692 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-07 17:21:47,815 INFO    MainThread:28692 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-07 17:21:47,815 INFO    MainThread:28692 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-07 17:21:47,816 INFO    MainThread:28692 [wandb_init.py:init():817] run started, returning control to user process
+2023-03-07 17:21:47,819 INFO    MainThread:28692 [wandb_run.py:_config_callback():1250] config_cb None None {'alias': '', 'experiment_id': '', 'run_tags': [], 'run_notes': '', 'seed': 0, 'device': 'cpu', 'dataset': 'Jet_Engine', 'reciprocal': True, 'model': 'ComplEx', 'rank': 1000, 'rank_r': 100, 'init': 0.001, 'dropout': 0, 'lmbda': 0.05, 'world': 'LCWA', 'num_neg': 0, 'score_rel': True, 'score_lhs': False, 'score_rhs': True, 'w_rel': 4.0, 'w_lhs': 1, 'regularizer': 'N3', 'optimizer': 'Adagrad', 'max_epochs': 100, 'valid': 3, 'batch_size': 1000, 'learning_rate': 0.1, 'decay1': 0.9, 'decay2': 0.999, 'cache_eval': None, 'model_cache_path': None, 'size': [486, 124, 486], 'loss': 'CrossEntropyLoss()'}
+2023-03-07 17:21:47,821 INFO    MainThread:28692 [wandb_watch.py:watch():51] Watching
+2023-03-07 17:22:01,362 INFO    MainThread:28692 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-03-07 17:22:01,362 INFO    MainThread:28692 [wandb_init.py:_pause_backend():403] pausing backend
+2023-03-08 18:43:22,197 INFO    MainThread:28692 [wandb_init.py:_resume_backend():408] resuming backend
+2023-03-08 18:43:22,553 INFO    MainThread:28692 [wandb_setup.py:_flush():68] Configure stats pid to 28692
+2023-03-08 18:43:22,554 INFO    MainThread:28692 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\.config\wandb\settings
+2023-03-08 18:43:22,554 INFO    MainThread:28692 [wandb_setup.py:_flush():68] Loading settings from C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\settings
+2023-03-08 18:43:22,554 INFO    MainThread:28692 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-03-08 18:43:22,555 INFO    MainThread:28692 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-08 18:43:22,556 INFO    MainThread:28692 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230308_184322-6522vfjd\logs\debug.log
+2023-03-08 18:43:22,557 INFO    MainThread:28692 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\shanthod\Downloads\ssl-relation-prediction-main\ssl-relation-prediction-main\src\wandb\run-20230308_184322-6522vfjd\logs\debug-internal.log
+2023-03-08 18:43:22,558 INFO    MainThread:28692 [wandb_init.py:init():532] calling init triggers
+2023-03-08 18:43:22,559 INFO    MainThread:28692 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {}
+2023-03-08 18:43:22,559 INFO    MainThread:28692 [wandb_init.py:init():554] re-initializing run, found existing run on stack: jhyov8yk
+2023-03-08 18:43:22,566 INFO    MainThread:28692 [wandb_run.py:_finish():1854] finishing run shan_proj/ssl-relation-prediction/jhyov8yk
+2023-03-08 18:43:22,568 INFO    MainThread:28692 [jupyter.py:save_history():449] not saving jupyter history
+2023-03-08 18:43:22,569 INFO    MainThread:28692 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-03-08 18:43:22,569 INFO    MainThread:28692 [wandb_init.py:_jupyter_teardown():420] cleaning up jupyter logic
+2023-03-08 18:43:22,569 INFO    MainThread:28692 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-08 18:43:22,570 INFO    MainThread:28692 [wandb_run.py:_restore():2066] restore
+2023-03-08 18:43:22,571 INFO    MainThread:28692 [wandb_run.py:_restore():2072] restore done
+2023-03-08 18:43:29,607 INFO    MainThread:28692 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-03-08 18:43:29,608 INFO    MainThread:28692 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-03-08 18:43:29,638 INFO    MainThread:28692 [wandb_run.py:_footer_sync_info():3398] logging synced files
